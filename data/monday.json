@@ -1,0 +1,1642 @@
+{
+  "workspaces": [
+    {
+      "id": "ws-001",
+      "name": "Beast Industries Main",
+      "kind": "open",
+      "description": "Primary workspace for all company-wide boards and cross-functional projects at Beast Industries.",
+      "created_at": "2023-01-15T08:00:00Z"
+    },
+    {
+      "id": "ws-002",
+      "name": "Engineering & Operations",
+      "kind": "open",
+      "description": "Workspace for Engineering, Manufacturing, and Operations teams managing product development and production workflows.",
+      "created_at": "2023-01-15T08:30:00Z"
+    },
+    {
+      "id": "ws-003",
+      "name": "Sales & Corporate",
+      "kind": "closed",
+      "description": "Restricted workspace for Sales, HR, IT, and Compliance functions at Beast Industries.",
+      "created_at": "2023-01-16T09:00:00Z"
+    }
+  ],
+
+  "folders": [
+    {
+      "id": "fld-001",
+      "name": "Engineering Projects",
+      "workspace_id": "ws-002",
+      "parent_folder_id": null,
+      "color": "#0073ea",
+      "created_at": "2023-02-01T09:00:00Z",
+      "children_count": 2
+    },
+    {
+      "id": "fld-002",
+      "name": "Operations & Maintenance",
+      "workspace_id": "ws-002",
+      "parent_folder_id": null,
+      "color": "#ff642e",
+      "created_at": "2023-02-01T09:15:00Z",
+      "children_count": 2
+    },
+    {
+      "id": "fld-003",
+      "name": "Sales & Customer Success",
+      "workspace_id": "ws-003",
+      "parent_folder_id": null,
+      "color": "#00ca72",
+      "created_at": "2023-02-02T10:00:00Z",
+      "children_count": 2
+    },
+    {
+      "id": "fld-004",
+      "name": "Corporate Functions",
+      "workspace_id": "ws-003",
+      "parent_folder_id": null,
+      "color": "#a358df",
+      "created_at": "2023-02-02T10:30:00Z",
+      "children_count": 3
+    }
+  ],
+
+  "boards": [
+    {
+      "id": "brd-001",
+      "name": "Product Development Roadmap",
+      "description": "Tracks all product development initiatives, feature requests, and engineering milestones across the Beast Industries product line.",
+      "workspace_id": "ws-002",
+      "workspace_name": "Engineering & Operations",
+      "board_kind": "public",
+      "state": "active",
+      "board_folder_id": "fld-001",
+      "created_at": "2023-02-10T08:00:00Z",
+      "updated_at": "2026-09-05T14:22:00Z",
+      "owner_id": "usr-101",
+      "permissions": "everyone",
+      "columns_count": 8,
+      "items_count": 12,
+      "tags": ["engineering", "roadmap", "product"]
+    },
+    {
+      "id": "brd-002",
+      "name": "Manufacturing Operations Tracker",
+      "description": "Monitors production runs, quality checks, and line-level manufacturing tasks across all Beast Industries facilities.",
+      "workspace_id": "ws-002",
+      "workspace_name": "Engineering & Operations",
+      "board_kind": "public",
+      "state": "active",
+      "board_folder_id": "fld-002",
+      "created_at": "2023-02-12T08:30:00Z",
+      "updated_at": "2026-09-07T16:45:00Z",
+      "owner_id": "usr-102",
+      "permissions": "everyone",
+      "columns_count": 9,
+      "items_count": 10,
+      "tags": ["manufacturing", "operations", "production"]
+    },
+    {
+      "id": "brd-003",
+      "name": "Equipment Maintenance Schedule",
+      "description": "Scheduled and ad-hoc maintenance tasks for all industrial equipment, machinery, and facilities at Beast Industries.",
+      "workspace_id": "ws-002",
+      "workspace_name": "Engineering & Operations",
+      "board_kind": "public",
+      "state": "active",
+      "board_folder_id": "fld-002",
+      "created_at": "2023-03-01T09:00:00Z",
+      "updated_at": "2026-09-06T11:30:00Z",
+      "owner_id": "usr-102",
+      "permissions": "everyone",
+      "columns_count": 7,
+      "items_count": 8,
+      "tags": ["maintenance", "equipment", "operations"]
+    },
+    {
+      "id": "brd-004",
+      "name": "Sales Pipeline",
+      "description": "End-to-end sales pipeline tracking prospects, active deals, proposals, and closed opportunities for Beast Industries.",
+      "workspace_id": "ws-003",
+      "workspace_name": "Sales & Corporate",
+      "board_kind": "private",
+      "state": "active",
+      "board_folder_id": "fld-003",
+      "created_at": "2023-02-15T10:00:00Z",
+      "updated_at": "2026-09-08T09:10:00Z",
+      "owner_id": "usr-103",
+      "permissions": "owners",
+      "columns_count": 10,
+      "items_count": 6,
+      "tags": ["sales", "pipeline", "deals"]
+    },
+    {
+      "id": "brd-005",
+      "name": "Customer Onboarding",
+      "description": "Tracks new customer onboarding steps, welcome kits, account setup tasks, and success milestones.",
+      "workspace_id": "ws-003",
+      "workspace_name": "Sales & Corporate",
+      "board_kind": "public",
+      "state": "active",
+      "board_folder_id": "fld-003",
+      "created_at": "2023-04-01T10:30:00Z",
+      "updated_at": "2026-09-03T15:00:00Z",
+      "owner_id": "usr-103",
+      "permissions": "everyone",
+      "columns_count": 8,
+      "items_count": 4,
+      "tags": ["sales", "onboarding", "customer-success"]
+    },
+    {
+      "id": "brd-006",
+      "name": "HR & Onboarding",
+      "description": "Manages new hire onboarding checklists, employee lifecycle tasks, and HR administrative workflows.",
+      "workspace_id": "ws-003",
+      "workspace_name": "Sales & Corporate",
+      "board_kind": "private",
+      "state": "active",
+      "board_folder_id": "fld-004",
+      "created_at": "2023-02-20T11:00:00Z",
+      "updated_at": "2026-09-01T10:45:00Z",
+      "owner_id": "usr-104",
+      "permissions": "owners",
+      "columns_count": 9,
+      "items_count": 4,
+      "tags": ["hr", "onboarding", "people-ops"]
+    },
+    {
+      "id": "brd-007",
+      "name": "IT Requests",
+      "description": "IT helpdesk and service request board. Connects to Serval for automated ticket routing and resolution tracking.",
+      "workspace_id": "ws-003",
+      "workspace_name": "Sales & Corporate",
+      "board_folder_id": "fld-004",
+      "board_kind": "public",
+      "state": "active",
+      "created_at": "2023-03-10T13:00:00Z",
+      "updated_at": "2026-09-08T08:55:00Z",
+      "owner_id": "usr-105",
+      "permissions": "everyone",
+      "columns_count": 8,
+      "items_count": 6,
+      "tags": ["it", "helpdesk", "serval", "support"]
+    },
+    {
+      "id": "brd-008",
+      "name": "Compliance & Audit Tracker",
+      "description": "Tracks regulatory compliance activities, internal and external audits, certifications, and required training completions.",
+      "workspace_id": "ws-003",
+      "workspace_name": "Sales & Corporate",
+      "board_folder_id": "fld-004",
+      "board_kind": "private",
+      "state": "active",
+      "created_at": "2023-03-15T09:30:00Z",
+      "updated_at": "2026-09-07T12:20:00Z",
+      "owner_id": "usr-104",
+      "permissions": "owners",
+      "columns_count": 9,
+      "items_count": 5,
+      "tags": ["compliance", "audit", "iso9001", "osha"]
+    }
+  ],
+
+  "groups": [
+    {
+      "id": "grp-001-1",
+      "title": "Backlog",
+      "board_id": "brd-001",
+      "board_name": "Product Development Roadmap",
+      "color": "#c4c4c4",
+      "position": 1,
+      "archived": false,
+      "items_count": 3
+    },
+    {
+      "id": "grp-001-2",
+      "title": "In Development",
+      "board_id": "brd-001",
+      "board_name": "Product Development Roadmap",
+      "color": "#0073ea",
+      "position": 2,
+      "archived": false,
+      "items_count": 4
+    },
+    {
+      "id": "grp-001-3",
+      "title": "Testing & Validation",
+      "board_id": "brd-001",
+      "board_name": "Product Development Roadmap",
+      "color": "#fdab3d",
+      "position": 3,
+      "archived": false,
+      "items_count": 3
+    },
+    {
+      "id": "grp-001-4",
+      "title": "Launched",
+      "board_id": "brd-001",
+      "board_name": "Product Development Roadmap",
+      "color": "#00ca72",
+      "position": 4,
+      "archived": false,
+      "items_count": 2
+    },
+    {
+      "id": "grp-002-1",
+      "title": "Scheduled",
+      "board_id": "brd-002",
+      "board_name": "Manufacturing Operations Tracker",
+      "color": "#c4c4c4",
+      "position": 1,
+      "archived": false,
+      "items_count": 2
+    },
+    {
+      "id": "grp-002-2",
+      "title": "In Progress",
+      "board_id": "brd-002",
+      "board_name": "Manufacturing Operations Tracker",
+      "color": "#0073ea",
+      "position": 2,
+      "archived": false,
+      "items_count": 4
+    },
+    {
+      "id": "grp-002-3",
+      "title": "Quality Review",
+      "board_id": "brd-002",
+      "board_name": "Manufacturing Operations Tracker",
+      "color": "#fdab3d",
+      "position": 3,
+      "archived": false,
+      "items_count": 2
+    },
+    {
+      "id": "grp-002-4",
+      "title": "Completed",
+      "board_id": "brd-002",
+      "board_name": "Manufacturing Operations Tracker",
+      "color": "#00ca72",
+      "position": 4,
+      "archived": false,
+      "items_count": 2
+    },
+    {
+      "id": "grp-003-1",
+      "title": "Upcoming",
+      "board_id": "brd-003",
+      "board_name": "Equipment Maintenance Schedule",
+      "color": "#c4c4c4",
+      "position": 1,
+      "archived": false,
+      "items_count": 3
+    },
+    {
+      "id": "grp-003-2",
+      "title": "In Progress",
+      "board_id": "brd-003",
+      "board_name": "Equipment Maintenance Schedule",
+      "color": "#fdab3d",
+      "position": 2,
+      "archived": false,
+      "items_count": 2
+    },
+    {
+      "id": "grp-003-3",
+      "title": "Awaiting Parts",
+      "board_id": "brd-003",
+      "board_name": "Equipment Maintenance Schedule",
+      "color": "#ff642e",
+      "position": 3,
+      "archived": false,
+      "items_count": 1
+    },
+    {
+      "id": "grp-003-4",
+      "title": "Completed",
+      "board_id": "brd-003",
+      "board_name": "Equipment Maintenance Schedule",
+      "color": "#00ca72",
+      "position": 4,
+      "archived": false,
+      "items_count": 2
+    },
+    {
+      "id": "grp-004-1",
+      "title": "Prospecting",
+      "board_id": "brd-004",
+      "board_name": "Sales Pipeline",
+      "color": "#c4c4c4",
+      "position": 1,
+      "archived": false,
+      "items_count": 1
+    },
+    {
+      "id": "grp-004-2",
+      "title": "Proposal Sent",
+      "board_id": "brd-004",
+      "board_name": "Sales Pipeline",
+      "color": "#fdab3d",
+      "position": 2,
+      "archived": false,
+      "items_count": 2
+    },
+    {
+      "id": "grp-004-3",
+      "title": "Negotiation",
+      "board_id": "brd-004",
+      "board_name": "Sales Pipeline",
+      "color": "#ff642e",
+      "position": 3,
+      "archived": false,
+      "items_count": 2
+    },
+    {
+      "id": "grp-004-4",
+      "title": "Closed Won",
+      "board_id": "brd-004",
+      "board_name": "Sales Pipeline",
+      "color": "#00ca72",
+      "position": 4,
+      "archived": false,
+      "items_count": 1
+    },
+    {
+      "id": "grp-005-1",
+      "title": "Kickoff",
+      "board_id": "brd-005",
+      "board_name": "Customer Onboarding",
+      "color": "#0073ea",
+      "position": 1,
+      "archived": false,
+      "items_count": 1
+    },
+    {
+      "id": "grp-005-2",
+      "title": "Setup & Configuration",
+      "board_id": "brd-005",
+      "board_name": "Customer Onboarding",
+      "color": "#fdab3d",
+      "position": 2,
+      "archived": false,
+      "items_count": 2
+    },
+    {
+      "id": "grp-005-3",
+      "title": "Go-Live",
+      "board_id": "brd-005",
+      "board_name": "Customer Onboarding",
+      "color": "#00ca72",
+      "position": 3,
+      "archived": false,
+      "items_count": 1
+    },
+    {
+      "id": "grp-006-1",
+      "title": "Pre-Start",
+      "board_id": "brd-006",
+      "board_name": "HR & Onboarding",
+      "color": "#c4c4c4",
+      "position": 1,
+      "archived": false,
+      "items_count": 1
+    },
+    {
+      "id": "grp-006-2",
+      "title": "Week 1",
+      "board_id": "brd-006",
+      "board_name": "HR & Onboarding",
+      "color": "#fdab3d",
+      "position": 2,
+      "archived": false,
+      "items_count": 1
+    },
+    {
+      "id": "grp-006-3",
+      "title": "30-Day Review",
+      "board_id": "brd-006",
+      "board_name": "HR & Onboarding",
+      "color": "#0073ea",
+      "position": 3,
+      "archived": false,
+      "items_count": 1
+    },
+    {
+      "id": "grp-006-4",
+      "title": "Completed",
+      "board_id": "brd-006",
+      "board_name": "HR & Onboarding",
+      "color": "#00ca72",
+      "position": 4,
+      "archived": false,
+      "items_count": 1
+    },
+    {
+      "id": "grp-007-1",
+      "title": "New Requests",
+      "board_id": "brd-007",
+      "board_name": "IT Requests",
+      "color": "#c4c4c4",
+      "position": 1,
+      "archived": false,
+      "items_count": 2
+    },
+    {
+      "id": "grp-007-2",
+      "title": "In Progress",
+      "board_id": "brd-007",
+      "board_name": "IT Requests",
+      "color": "#0073ea",
+      "position": 2,
+      "archived": false,
+      "items_count": 2
+    },
+    {
+      "id": "grp-007-3",
+      "title": "Pending User",
+      "board_id": "brd-007",
+      "board_name": "IT Requests",
+      "color": "#fdab3d",
+      "position": 3,
+      "archived": false,
+      "items_count": 1
+    },
+    {
+      "id": "grp-007-4",
+      "title": "Resolved",
+      "board_id": "brd-007",
+      "board_name": "IT Requests",
+      "color": "#00ca72",
+      "position": 4,
+      "archived": false,
+      "items_count": 1
+    },
+    {
+      "id": "grp-008-1",
+      "title": "Not Started",
+      "board_id": "brd-008",
+      "board_name": "Compliance & Audit Tracker",
+      "color": "#c4c4c4",
+      "position": 1,
+      "archived": false,
+      "items_count": 1
+    },
+    {
+      "id": "grp-008-2",
+      "title": "In Progress",
+      "board_id": "brd-008",
+      "board_name": "Compliance & Audit Tracker",
+      "color": "#0073ea",
+      "position": 2,
+      "archived": false,
+      "items_count": 2
+    },
+    {
+      "id": "grp-008-3",
+      "title": "Under Review",
+      "board_id": "brd-008",
+      "board_name": "Compliance & Audit Tracker",
+      "color": "#fdab3d",
+      "position": 3,
+      "archived": false,
+      "items_count": 1
+    },
+    {
+      "id": "grp-008-4",
+      "title": "Certified / Closed",
+      "board_id": "brd-008",
+      "board_name": "Compliance & Audit Tracker",
+      "color": "#00ca72",
+      "position": 4,
+      "archived": false,
+      "items_count": 1
+    }
+  ],
+
+  "items": [
+    {
+      "id": "itm-1001",
+      "name": "Hydraulic Press Redesign — Series 400",
+      "board_id": "brd-001",
+      "board_name": "Product Development Roadmap",
+      "group_id": "grp-001-2",
+      "group_name": "In Development",
+      "state": "active",
+      "created_at": "2026-03-10T09:00:00Z",
+      "updated_at": "2026-09-04T11:30:00Z",
+      "creator_id": "usr-101",
+      "creator_name": "Derek Holt",
+      "assignee_names": ["Derek Holt", "Priya Nair"],
+      "column_values": {
+        "status": "In Development",
+        "priority": "High",
+        "due_date": "2026-11-30",
+        "progress_pct": 45,
+        "notes": "Redesign focuses on reduced hydraulic fluid consumption and improved safety interlocks. CAD models in review."
+      },
+      "tags": ["engineering", "hydraulics", "product"]
+    },
+    {
+      "id": "itm-1002",
+      "name": "Conveyor System Upgrade — Plant B",
+      "board_id": "brd-001",
+      "board_name": "Product Development Roadmap",
+      "group_id": "grp-001-2",
+      "group_name": "In Development",
+      "state": "active",
+      "created_at": "2026-04-01T08:30:00Z",
+      "updated_at": "2026-09-05T14:20:00Z",
+      "creator_id": "usr-101",
+      "creator_name": "Derek Holt",
+      "assignee_names": ["Marcus Webb"],
+      "column_values": {
+        "status": "In Development",
+        "priority": "Medium",
+        "due_date": "2026-12-15",
+        "progress_pct": 30,
+        "notes": "Upgrading belt drive motors to variable-frequency drives. Vendor quotes received from three suppliers."
+      },
+      "tags": ["engineering", "conveyor", "plant-b"]
+    },
+    {
+      "id": "itm-1003",
+      "name": "CAD Software Migration to SOLIDWORKS 2026",
+      "board_id": "brd-001",
+      "board_name": "Product Development Roadmap",
+      "group_id": "grp-001-3",
+      "group_name": "Testing & Validation",
+      "state": "active",
+      "created_at": "2026-05-15T10:00:00Z",
+      "updated_at": "2026-09-06T09:45:00Z",
+      "creator_id": "usr-101",
+      "creator_name": "Derek Holt",
+      "assignee_names": ["Priya Nair", "Tom Kessler"],
+      "column_values": {
+        "status": "Testing",
+        "priority": "High",
+        "due_date": "2026-09-30",
+        "progress_pct": 80,
+        "notes": "Pilot migration complete for 5 workstations. Validating file compatibility with legacy .sldprt archives. Full rollout pending sign-off."
+      },
+      "tags": ["engineering", "software", "cad"]
+    },
+    {
+      "id": "itm-1004",
+      "name": "Modular Tooling Platform — Phase 1 Spec",
+      "board_id": "brd-001",
+      "board_name": "Product Development Roadmap",
+      "group_id": "grp-001-1",
+      "group_name": "Backlog",
+      "state": "active",
+      "created_at": "2026-06-20T11:00:00Z",
+      "updated_at": "2026-08-15T16:00:00Z",
+      "creator_id": "usr-101",
+      "creator_name": "Derek Holt",
+      "assignee_names": [],
+      "column_values": {
+        "status": "Backlog",
+        "priority": "Low",
+        "due_date": "2027-03-01",
+        "progress_pct": 5,
+        "notes": "Initial concept for a modular quick-change tooling system. Needs feasibility study before kickoff."
+      },
+      "tags": ["engineering", "tooling", "roadmap"]
+    },
+    {
+      "id": "itm-1005",
+      "name": "Automated Welding Cell Integration",
+      "board_id": "brd-001",
+      "board_name": "Product Development Roadmap",
+      "group_id": "grp-001-2",
+      "group_name": "In Development",
+      "state": "active",
+      "created_at": "2026-04-28T08:00:00Z",
+      "updated_at": "2026-09-02T13:10:00Z",
+      "creator_id": "usr-101",
+      "creator_name": "Derek Holt",
+      "assignee_names": ["Marcus Webb", "Derek Holt"],
+      "column_values": {
+        "status": "In Development",
+        "priority": "High",
+        "due_date": "2026-10-31",
+        "progress_pct": 60,
+        "notes": "Robotic arm firmware integration with PLC underway. Safety cage installation scheduled for week of Sept 14."
+      },
+      "tags": ["engineering", "automation", "welding"]
+    },
+    {
+      "id": "itm-1006",
+      "name": "Pressure Vessel Certification — PV-77 Series",
+      "board_id": "brd-001",
+      "board_name": "Product Development Roadmap",
+      "group_id": "grp-001-4",
+      "group_name": "Launched",
+      "state": "active",
+      "created_at": "2025-11-01T09:00:00Z",
+      "updated_at": "2026-07-12T15:00:00Z",
+      "creator_id": "usr-101",
+      "creator_name": "Derek Holt",
+      "assignee_names": ["Priya Nair"],
+      "column_values": {
+        "status": "Launched",
+        "priority": "Medium",
+        "due_date": "2026-06-30",
+        "progress_pct": 100,
+        "notes": "ASME certification received June 28. PV-77 Series cleared for production. Documentation filed with compliance team."
+      },
+      "tags": ["engineering", "certification", "pressure-vessel"]
+    },
+    {
+      "id": "itm-2001",
+      "name": "Production Run #4821 — Bearing Housing Batch",
+      "board_id": "brd-002",
+      "board_name": "Manufacturing Operations Tracker",
+      "group_id": "grp-002-2",
+      "group_name": "In Progress",
+      "state": "active",
+      "created_at": "2026-09-01T06:00:00Z",
+      "updated_at": "2026-09-08T07:30:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "assignee_names": ["Ray Okonkwo", "Sofia Torres"],
+      "column_values": {
+        "status": "In Progress",
+        "priority": "High",
+        "due_date": "2026-09-12",
+        "progress_pct": 55,
+        "notes": "Batch of 500 bearing housings underway on Line 2. Material feed rate adjusted per QC memo QC-2026-041."
+      },
+      "tags": ["manufacturing", "production", "line-2"]
+    },
+    {
+      "id": "itm-2002",
+      "name": "Quality Check — Batch B-22 Gearbox Castings",
+      "board_id": "brd-002",
+      "board_name": "Manufacturing Operations Tracker",
+      "group_id": "grp-002-3",
+      "group_name": "Quality Review",
+      "state": "active",
+      "created_at": "2026-09-03T08:00:00Z",
+      "updated_at": "2026-09-08T09:15:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "assignee_names": ["Linda Chow"],
+      "column_values": {
+        "status": "Quality Review",
+        "priority": "Critical",
+        "due_date": "2026-09-09",
+        "progress_pct": 70,
+        "notes": "Three units flagged for porosity defects on visual inspection. Dimensional tolerances within spec. CMM report pending."
+      },
+      "tags": ["manufacturing", "quality", "gearbox"]
+    },
+    {
+      "id": "itm-2003",
+      "name": "Line 3 Scheduled Maintenance Window",
+      "board_id": "brd-002",
+      "board_name": "Manufacturing Operations Tracker",
+      "group_id": "grp-002-1",
+      "group_name": "Scheduled",
+      "state": "active",
+      "created_at": "2026-08-20T10:00:00Z",
+      "updated_at": "2026-09-01T08:00:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "assignee_names": ["Ray Okonkwo"],
+      "column_values": {
+        "status": "Scheduled",
+        "priority": "Medium",
+        "due_date": "2026-09-20",
+        "progress_pct": 0,
+        "notes": "Planned 8-hour maintenance window for Line 3. Covers belt replacement, lubrication, and sensor calibration."
+      },
+      "tags": ["manufacturing", "maintenance", "line-3"]
+    },
+    {
+      "id": "itm-2004",
+      "name": "Production Run #4815 — Shaft Collar Batch",
+      "board_id": "brd-002",
+      "board_name": "Manufacturing Operations Tracker",
+      "group_id": "grp-002-4",
+      "group_name": "Completed",
+      "state": "active",
+      "created_at": "2026-08-25T06:00:00Z",
+      "updated_at": "2026-09-05T16:00:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "assignee_names": ["Sofia Torres"],
+      "column_values": {
+        "status": "Completed",
+        "priority": "Medium",
+        "due_date": "2026-09-05",
+        "progress_pct": 100,
+        "notes": "750 shaft collars completed and passed QC. Moved to inventory. Job traveler closed."
+      },
+      "tags": ["manufacturing", "production", "shaft-collar"]
+    },
+    {
+      "id": "itm-2005",
+      "name": "Incoming Material Inspection — Steel Coil Lot 88A",
+      "board_id": "brd-002",
+      "board_name": "Manufacturing Operations Tracker",
+      "group_id": "grp-002-2",
+      "group_name": "In Progress",
+      "state": "active",
+      "created_at": "2026-09-07T07:00:00Z",
+      "updated_at": "2026-09-08T08:00:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "assignee_names": ["Linda Chow"],
+      "column_values": {
+        "status": "In Progress",
+        "priority": "High",
+        "due_date": "2026-09-09",
+        "progress_pct": 40,
+        "notes": "Verifying mill certs and performing hardness tests on steel coil lot 88A from Ironclad Steel. COC received."
+      },
+      "tags": ["manufacturing", "inspection", "materials"]
+    },
+    {
+      "id": "itm-3001",
+      "name": "Forklift Annual Service — Unit FL-04",
+      "board_id": "brd-003",
+      "board_name": "Equipment Maintenance Schedule",
+      "group_id": "grp-003-2",
+      "group_name": "In Progress",
+      "state": "active",
+      "created_at": "2026-08-28T09:00:00Z",
+      "updated_at": "2026-09-07T11:00:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "assignee_names": ["Carlos Mejia"],
+      "column_values": {
+        "status": "In Progress",
+        "priority": "High",
+        "due_date": "2026-09-15",
+        "progress_pct": 50,
+        "notes": "Annual OSHA-required forklift service. Oil change and brake inspection done. Mast cylinder seal replacement in progress."
+      },
+      "tags": ["maintenance", "forklift", "osha"]
+    },
+    {
+      "id": "itm-3002",
+      "name": "CNC Machine Calibration — VMC-12",
+      "board_id": "brd-003",
+      "board_name": "Equipment Maintenance Schedule",
+      "group_id": "grp-003-1",
+      "group_name": "Upcoming",
+      "state": "active",
+      "created_at": "2026-09-01T10:00:00Z",
+      "updated_at": "2026-09-01T10:00:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "assignee_names": ["Tom Kessler"],
+      "column_values": {
+        "status": "Upcoming",
+        "priority": "Medium",
+        "due_date": "2026-09-22",
+        "progress_pct": 0,
+        "notes": "Quarterly axis calibration and tool length offset verification. Renishaw probe inspection included."
+      },
+      "tags": ["maintenance", "cnc", "calibration"]
+    },
+    {
+      "id": "itm-3003",
+      "name": "Air Compressor Inspection — Unit AC-02",
+      "board_id": "brd-003",
+      "board_name": "Equipment Maintenance Schedule",
+      "group_id": "grp-003-3",
+      "group_name": "Awaiting Parts",
+      "state": "active",
+      "created_at": "2026-08-15T09:30:00Z",
+      "updated_at": "2026-09-06T14:00:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "assignee_names": ["Carlos Mejia"],
+      "column_values": {
+        "status": "Awaiting Parts",
+        "priority": "High",
+        "due_date": "2026-09-18",
+        "progress_pct": 20,
+        "notes": "Inspection started. Inlet filter and separator element ordered — backordered from supplier. ETA Sept 16."
+      },
+      "tags": ["maintenance", "compressor", "awaiting-parts"]
+    },
+    {
+      "id": "itm-3004",
+      "name": "Overhead Crane Inspection — Crane 1",
+      "board_id": "brd-003",
+      "board_name": "Equipment Maintenance Schedule",
+      "group_id": "grp-003-4",
+      "group_name": "Completed",
+      "state": "active",
+      "created_at": "2026-07-10T08:00:00Z",
+      "updated_at": "2026-08-01T15:00:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "assignee_names": ["Carlos Mejia"],
+      "column_values": {
+        "status": "Completed",
+        "priority": "Critical",
+        "due_date": "2026-08-01",
+        "progress_pct": 100,
+        "notes": "Annual third-party crane inspection completed by certified inspector. Certificate valid through Aug 2027. Filed with compliance."
+      },
+      "tags": ["maintenance", "crane", "inspection"]
+    },
+    {
+      "id": "itm-4001",
+      "name": "Apex Manufacturing — Hydraulic Press Deal",
+      "board_id": "brd-004",
+      "board_name": "Sales Pipeline",
+      "group_id": "grp-004-3",
+      "group_name": "Negotiation",
+      "state": "active",
+      "created_at": "2026-06-15T10:00:00Z",
+      "updated_at": "2026-09-07T16:30:00Z",
+      "creator_id": "usr-103",
+      "creator_name": "Jamie Sutherland",
+      "assignee_names": ["Jamie Sutherland"],
+      "column_values": {
+        "status": "Negotiation",
+        "priority": "Critical",
+        "due_date": "2026-09-30",
+        "progress_pct": 75,
+        "notes": "Apex requesting 8% discount on 3-unit order. Counter-proposal submitted with extended warranty as sweetener. Decision expected by Sept 12."
+      },
+      "tags": ["sales", "apex-manufacturing", "hydraulic-press"]
+    },
+    {
+      "id": "itm-4002",
+      "name": "Ironclad Steel — Conveyor System Proposal",
+      "board_id": "brd-004",
+      "board_name": "Sales Pipeline",
+      "group_id": "grp-004-2",
+      "group_name": "Proposal Sent",
+      "state": "active",
+      "created_at": "2026-07-20T09:00:00Z",
+      "updated_at": "2026-09-05T11:00:00Z",
+      "creator_id": "usr-103",
+      "creator_name": "Jamie Sutherland",
+      "assignee_names": ["Jamie Sutherland", "Nina Park"],
+      "column_values": {
+        "status": "Proposal Sent",
+        "priority": "High",
+        "due_date": "2026-10-15",
+        "progress_pct": 50,
+        "notes": "Proposal covers 120ft conveyor system for new warehouse expansion. Awaiting feedback from Ironclad procurement team."
+      },
+      "tags": ["sales", "ironclad-steel", "conveyor"]
+    },
+    {
+      "id": "itm-4003",
+      "name": "RFQ Follow-Up — Delta Components",
+      "board_id": "brd-004",
+      "board_name": "Sales Pipeline",
+      "group_id": "grp-004-1",
+      "group_name": "Prospecting",
+      "state": "active",
+      "created_at": "2026-09-02T11:30:00Z",
+      "updated_at": "2026-09-08T08:00:00Z",
+      "creator_id": "usr-103",
+      "creator_name": "Jamie Sutherland",
+      "assignee_names": ["Nina Park"],
+      "column_values": {
+        "status": "Prospecting",
+        "priority": "Medium",
+        "due_date": "2026-09-20",
+        "progress_pct": 10,
+        "notes": "Delta Components submitted an RFQ for custom press tooling. Initial contact made. Discovery call scheduled for Sept 11."
+      },
+      "tags": ["sales", "rfq", "delta-components"]
+    },
+    {
+      "id": "itm-4004",
+      "name": "Meridian Fabricators — Closed Won",
+      "board_id": "brd-004",
+      "board_name": "Sales Pipeline",
+      "group_id": "grp-004-4",
+      "group_name": "Closed Won",
+      "state": "active",
+      "created_at": "2026-05-01T09:00:00Z",
+      "updated_at": "2026-08-10T14:00:00Z",
+      "creator_id": "usr-103",
+      "creator_name": "Jamie Sutherland",
+      "assignee_names": ["Jamie Sutherland"],
+      "column_values": {
+        "status": "Closed Won",
+        "priority": "High",
+        "due_date": "2026-08-01",
+        "progress_pct": 100,
+        "notes": "Deal closed for 2x automated welding cells. Contract signed August 8. PO received. Handoff to engineering complete."
+      },
+      "tags": ["sales", "closed-won", "welding-cell"]
+    },
+    {
+      "id": "itm-5001",
+      "name": "Ironclad Steel — New Account Onboarding",
+      "board_id": "brd-005",
+      "board_name": "Customer Onboarding",
+      "group_id": "grp-005-2",
+      "group_name": "Setup & Configuration",
+      "state": "active",
+      "created_at": "2026-08-15T10:00:00Z",
+      "updated_at": "2026-09-05T11:00:00Z",
+      "creator_id": "usr-103",
+      "creator_name": "Jamie Sutherland",
+      "assignee_names": ["Nina Park"],
+      "column_values": {
+        "status": "Setup & Configuration",
+        "priority": "High",
+        "due_date": "2026-09-20",
+        "progress_pct": 60,
+        "notes": "Portal access granted. Product training scheduled for Sept 15. Waiting on customer to complete credit application."
+      },
+      "tags": ["onboarding", "ironclad-steel"]
+    },
+    {
+      "id": "itm-5002",
+      "name": "Meridian Fabricators — Post-Sale Onboarding",
+      "board_id": "brd-005",
+      "board_name": "Customer Onboarding",
+      "group_id": "grp-005-3",
+      "group_name": "Go-Live",
+      "state": "active",
+      "created_at": "2026-08-12T09:00:00Z",
+      "updated_at": "2026-09-03T14:00:00Z",
+      "creator_id": "usr-103",
+      "creator_name": "Jamie Sutherland",
+      "assignee_names": ["Jamie Sutherland", "Nina Park"],
+      "column_values": {
+        "status": "Go-Live",
+        "priority": "Medium",
+        "due_date": "2026-09-10",
+        "progress_pct": 90,
+        "notes": "Welding cell site visit completed. Final commissioning punch list has 2 items remaining. Go-live confirmed for Sept 10."
+      },
+      "tags": ["onboarding", "meridian-fabricators"]
+    },
+    {
+      "id": "itm-6001",
+      "name": "New Hire Onboarding — Marcus Webb (Engineer II)",
+      "board_id": "brd-006",
+      "board_name": "HR & Onboarding",
+      "group_id": "grp-006-2",
+      "group_name": "Week 1",
+      "state": "active",
+      "created_at": "2026-08-25T09:00:00Z",
+      "updated_at": "2026-09-08T08:00:00Z",
+      "creator_id": "usr-104",
+      "creator_name": "Aisha Grant",
+      "assignee_names": ["Aisha Grant", "Derek Holt"],
+      "column_values": {
+        "status": "Week 1",
+        "priority": "High",
+        "due_date": "2026-09-12",
+        "progress_pct": 40,
+        "notes": "Marcus started Sept 8. Workstation setup pending IT. Safety orientation complete. Badge issued. Benefits enrollment due Sept 15."
+      },
+      "tags": ["hr", "onboarding", "engineering"]
+    },
+    {
+      "id": "itm-6002",
+      "name": "New Hire Onboarding — Sofia Torres (Manufacturing Tech)",
+      "board_id": "brd-006",
+      "board_name": "HR & Onboarding",
+      "group_id": "grp-006-4",
+      "group_name": "Completed",
+      "state": "active",
+      "created_at": "2026-07-15T09:00:00Z",
+      "updated_at": "2026-08-20T15:00:00Z",
+      "creator_id": "usr-104",
+      "creator_name": "Aisha Grant",
+      "assignee_names": ["Aisha Grant"],
+      "column_values": {
+        "status": "Completed",
+        "priority": "Medium",
+        "due_date": "2026-08-15",
+        "progress_pct": 100,
+        "notes": "All onboarding tasks complete. Sofia is fully ramped. 30-day check-in held Aug 18 — positive feedback."
+      },
+      "tags": ["hr", "onboarding", "manufacturing"]
+    },
+    {
+      "id": "itm-7001",
+      "name": "VPN Access Request — Marcus Webb",
+      "board_id": "brd-007",
+      "board_name": "IT Requests",
+      "group_id": "grp-007-1",
+      "group_name": "New Requests",
+      "state": "active",
+      "created_at": "2026-09-08T07:45:00Z",
+      "updated_at": "2026-09-08T07:45:00Z",
+      "creator_id": "usr-105",
+      "creator_name": "Ben Nakamura",
+      "assignee_names": [],
+      "column_values": {
+        "status": "New",
+        "priority": "High",
+        "due_date": "2026-09-09",
+        "progress_pct": 0,
+        "notes": "New engineer Marcus Webb requires VPN access for remote CAD work. Manager approval from Derek Holt attached."
+      },
+      "tags": ["it", "vpn", "access"]
+    },
+    {
+      "id": "itm-7002",
+      "name": "New Laptop Setup — Marcus Webb",
+      "board_id": "brd-007",
+      "board_name": "IT Requests",
+      "group_id": "grp-007-2",
+      "group_name": "In Progress",
+      "state": "active",
+      "created_at": "2026-09-08T07:50:00Z",
+      "updated_at": "2026-09-08T09:00:00Z",
+      "creator_id": "usr-105",
+      "creator_name": "Ben Nakamura",
+      "assignee_names": ["Ben Nakamura"],
+      "column_values": {
+        "status": "In Progress",
+        "priority": "High",
+        "due_date": "2026-09-09",
+        "progress_pct": 30,
+        "notes": "Dell Precision 5680 imaged with standard engineering build. SOLIDWORKS license install pending — awaiting seat assignment from Derek."
+      },
+      "tags": ["it", "laptop", "setup"]
+    },
+    {
+      "id": "itm-7003",
+      "name": "SharePoint Permissions — Sales Folder",
+      "board_id": "brd-007",
+      "board_name": "IT Requests",
+      "group_id": "grp-007-3",
+      "group_name": "Pending User",
+      "state": "active",
+      "created_at": "2026-09-04T14:00:00Z",
+      "updated_at": "2026-09-07T10:00:00Z",
+      "creator_id": "usr-105",
+      "creator_name": "Ben Nakamura",
+      "assignee_names": ["Ben Nakamura"],
+      "column_values": {
+        "status": "Pending User",
+        "priority": "Medium",
+        "due_date": "2026-09-12",
+        "progress_pct": 50,
+        "notes": "Permissions reconfigured per Jamie's request. Awaiting confirmation from Jamie Sutherland that access is correct before closing ticket."
+      },
+      "tags": ["it", "sharepoint", "permissions"]
+    },
+    {
+      "id": "itm-7004",
+      "name": "Email Distribution List — Engineering Team",
+      "board_id": "brd-007",
+      "board_name": "IT Requests",
+      "group_id": "grp-007-4",
+      "group_name": "Resolved",
+      "state": "active",
+      "created_at": "2026-08-29T11:00:00Z",
+      "updated_at": "2026-09-02T14:00:00Z",
+      "creator_id": "usr-105",
+      "creator_name": "Ben Nakamura",
+      "assignee_names": ["Ben Nakamura"],
+      "column_values": {
+        "status": "Resolved",
+        "priority": "Low",
+        "due_date": "2026-09-02",
+        "progress_pct": 100,
+        "notes": "Distribution list engineering@beastindustries.com updated with 3 new members. Confirmed working."
+      },
+      "tags": ["it", "email", "distribution-list"]
+    },
+    {
+      "id": "itm-8001",
+      "name": "ISO 9001:2015 Surveillance Audit Prep",
+      "board_id": "brd-008",
+      "board_name": "Compliance & Audit Tracker",
+      "group_id": "grp-008-2",
+      "group_name": "In Progress",
+      "state": "active",
+      "created_at": "2026-07-01T09:00:00Z",
+      "updated_at": "2026-09-07T12:00:00Z",
+      "creator_id": "usr-104",
+      "creator_name": "Aisha Grant",
+      "assignee_names": ["Aisha Grant", "Derek Holt", "Ray Okonkwo"],
+      "column_values": {
+        "status": "In Progress",
+        "priority": "Critical",
+        "due_date": "2026-10-15",
+        "progress_pct": 65,
+        "notes": "Audit scheduled for Oct 15-16 by DNV. Document control review complete. Corrective actions from prior audit closed. Internal pre-audit scheduled Sept 25."
+      },
+      "tags": ["compliance", "iso9001", "audit"]
+    },
+    {
+      "id": "itm-8002",
+      "name": "OSHA 10-Hour Training Completion — Plant Floor",
+      "board_id": "brd-008",
+      "board_name": "Compliance & Audit Tracker",
+      "group_id": "grp-008-3",
+      "group_name": "Under Review",
+      "state": "active",
+      "created_at": "2026-08-01T09:00:00Z",
+      "updated_at": "2026-09-06T10:00:00Z",
+      "creator_id": "usr-104",
+      "creator_name": "Aisha Grant",
+      "assignee_names": ["Aisha Grant"],
+      "column_values": {
+        "status": "Under Review",
+        "priority": "High",
+        "due_date": "2026-09-30",
+        "progress_pct": 85,
+        "notes": "17 of 20 plant floor employees have completed OSHA 10. Remaining 3 scheduled for Sept 18 session. Certificates being compiled."
+      },
+      "tags": ["compliance", "osha", "training"]
+    },
+    {
+      "id": "itm-8003",
+      "name": "Annual Environmental Compliance Report — Q3 2026",
+      "board_id": "brd-008",
+      "board_name": "Compliance & Audit Tracker",
+      "group_id": "grp-008-1",
+      "group_name": "Not Started",
+      "state": "active",
+      "created_at": "2026-09-01T09:00:00Z",
+      "updated_at": "2026-09-01T09:00:00Z",
+      "creator_id": "usr-104",
+      "creator_name": "Aisha Grant",
+      "assignee_names": [],
+      "column_values": {
+        "status": "Not Started",
+        "priority": "High",
+        "due_date": "2026-10-31",
+        "progress_pct": 0,
+        "notes": "Q3 environmental report due to state EPA Oct 31. Covers air emissions, wastewater discharge, and hazardous waste manifests."
+      },
+      "tags": ["compliance", "environmental", "reporting"]
+    }
+  ],
+
+  "updates": [
+    {
+      "id": "upd-001",
+      "item_id": "itm-1001",
+      "item_name": "Hydraulic Press Redesign — Series 400",
+      "board_id": "brd-001",
+      "body": "CAD review meeting held today. Team aligned on reducing cylinder bore from 6\" to 5.5\" to cut material costs by ~12%. Derek to update BOM by EOW.",
+      "created_at": "2026-09-04T11:30:00Z",
+      "creator_id": "usr-101",
+      "creator_name": "Derek Holt",
+      "likes_count": 3,
+      "replies": [
+        {
+          "id": "upd-001-r1",
+          "body": "Good call on the bore reduction. I'll update the stress analysis model to confirm it still meets the 200-ton rating.",
+          "creator_name": "Priya Nair",
+          "created_at": "2026-09-04T12:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "upd-002",
+      "item_id": "itm-1003",
+      "item_name": "CAD Software Migration to SOLIDWORKS 2026",
+      "board_id": "brd-001",
+      "body": "Pilot group sign-off collected from all 5 workstations. One compatibility issue with legacy .sldasm file from 2019 — Tom is investigating a rebuild path.",
+      "created_at": "2026-09-06T09:45:00Z",
+      "creator_id": "usr-101",
+      "creator_name": "Derek Holt",
+      "likes_count": 1,
+      "replies": []
+    },
+    {
+      "id": "upd-003",
+      "item_id": "itm-1005",
+      "item_name": "Automated Welding Cell Integration",
+      "board_id": "brd-001",
+      "body": "PLC ladder logic for safety interlock zones reviewed and approved by controls engineer. Safety cage frame delivered to Plant A — installation crew confirmed for Sept 14.",
+      "created_at": "2026-09-02T13:10:00Z",
+      "creator_id": "usr-101",
+      "creator_name": "Derek Holt",
+      "likes_count": 4,
+      "replies": [
+        {
+          "id": "upd-003-r1",
+          "body": "Great news! Let me know if you need me on-site Sept 14 to assist with the arm mounting.",
+          "creator_name": "Marcus Webb",
+          "created_at": "2026-09-02T14:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "upd-004",
+      "item_id": "itm-2001",
+      "item_name": "Production Run #4821 — Bearing Housing Batch",
+      "board_id": "brd-002",
+      "body": "Batch is 55% through. We adjusted feed rate on Line 2 per QC memo QC-2026-041 — surface finish on housing bores is now meeting Rz 3.2 spec. On track to complete by Sept 12.",
+      "created_at": "2026-09-08T07:30:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "likes_count": 2,
+      "replies": []
+    },
+    {
+      "id": "upd-005",
+      "item_id": "itm-2002",
+      "item_name": "Quality Check — Batch B-22 Gearbox Castings",
+      "board_id": "brd-002",
+      "body": "CMM report back from lab. Dimensions are within tolerance across all 3 flagged units. Porosity appears cosmetic only — surface dressing recommended before shipping. Escalating to engineering for final sign-off.",
+      "created_at": "2026-09-08T09:15:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "likes_count": 1,
+      "replies": [
+        {
+          "id": "upd-005-r1",
+          "body": "Reviewed the CMM report. Agree cosmetic only. Surface dressing approved — proceed with shipment after dressing.",
+          "creator_name": "Derek Holt",
+          "created_at": "2026-09-08T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "upd-006",
+      "item_id": "itm-3001",
+      "item_name": "Forklift Annual Service — Unit FL-04",
+      "board_id": "brd-003",
+      "body": "Oil change, brake inspection, and tire pressure check all complete. Mast cylinder seal kit arrived this morning. Starting seal replacement this afternoon. Should be back in service by end of day Sept 8.",
+      "created_at": "2026-09-07T11:00:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "likes_count": 0,
+      "replies": []
+    },
+    {
+      "id": "upd-007",
+      "item_id": "itm-3003",
+      "item_name": "Air Compressor Inspection — Unit AC-02",
+      "board_id": "brd-003",
+      "body": "Supplier confirmed inlet filter and separator element will ship Sept 13, arrive Sept 16. Inspection will resume upon parts arrival. AC-01 running double shift in the interim to maintain pressure.",
+      "created_at": "2026-09-06T14:00:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "likes_count": 0,
+      "replies": []
+    },
+    {
+      "id": "upd-008",
+      "item_id": "itm-4001",
+      "item_name": "Apex Manufacturing — Hydraulic Press Deal",
+      "board_id": "brd-004",
+      "body": "Spoke with procurement lead at Apex today. They're pushing for 10% off but I held at 6% + 2-year extended warranty. They said they'll have a decision by Sept 12. Staying optimistic — this is our largest deal this quarter.",
+      "created_at": "2026-09-07T16:30:00Z",
+      "creator_id": "usr-103",
+      "creator_name": "Jamie Sutherland",
+      "likes_count": 5,
+      "replies": [
+        {
+          "id": "upd-008-r1",
+          "body": "Good hold on the margin. The warranty sweetener was the right move. Let me know if you need exec support on the call.",
+          "creator_name": "Nina Park",
+          "created_at": "2026-09-07T17:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "upd-009",
+      "item_id": "itm-4002",
+      "item_name": "Ironclad Steel — Conveyor System Proposal",
+      "board_id": "brd-004",
+      "body": "Proposal delivered via email and DocuSign link sent. Scope covers 120ft conveyor with variable speed control and integrated safety guards. Pricing is $284,000 installed. Follow-up call booked for Sept 18.",
+      "created_at": "2026-09-05T11:00:00Z",
+      "creator_id": "usr-103",
+      "creator_name": "Jamie Sutherland",
+      "likes_count": 2,
+      "replies": []
+    },
+    {
+      "id": "upd-010",
+      "item_id": "itm-7001",
+      "item_name": "VPN Access Request — Marcus Webb",
+      "board_id": "brd-007",
+      "body": "Ticket received. Manager approval from Derek Holt confirmed via email. Provisioning VPN account now — should be active within 2 hours.",
+      "created_at": "2026-09-08T08:00:00Z",
+      "creator_id": "usr-105",
+      "creator_name": "Ben Nakamura",
+      "likes_count": 0,
+      "replies": []
+    },
+    {
+      "id": "upd-011",
+      "item_id": "itm-7002",
+      "item_name": "New Laptop Setup — Marcus Webb",
+      "board_id": "brd-007",
+      "body": "Dell Precision 5680 imaged with engineering build v4.2. Domain joined and group policies applied. Waiting on Derek Holt to assign SOLIDWORKS license seat. Will deliver laptop to Marcus once license is active.",
+      "created_at": "2026-09-08T09:00:00Z",
+      "creator_id": "usr-105",
+      "creator_name": "Ben Nakamura",
+      "likes_count": 0,
+      "replies": [
+        {
+          "id": "upd-011-r1",
+          "body": "I have a spare seat available on license server. I'll send the seat assignment to Ben now.",
+          "creator_name": "Derek Holt",
+          "created_at": "2026-09-08T09:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "upd-012",
+      "item_id": "itm-8001",
+      "item_name": "ISO 9001:2015 Surveillance Audit Prep",
+      "board_id": "brd-008",
+      "body": "Internal pre-audit scheduled for Sept 25 with cross-functional team. Focus areas: document control, nonconformance records, and calibration logs. All department leads should have their evidence packages ready by Sept 22.",
+      "created_at": "2026-09-07T12:00:00Z",
+      "creator_id": "usr-104",
+      "creator_name": "Aisha Grant",
+      "likes_count": 3,
+      "replies": [
+        {
+          "id": "upd-012-r1",
+          "body": "Engineering evidence package will be ready Sept 20. Calibration records are current through August.",
+          "creator_name": "Derek Holt",
+          "created_at": "2026-09-07T13:30:00Z"
+        },
+        {
+          "id": "upd-012-r2",
+          "body": "Operations package in progress. All corrective actions from the last audit are closed — will have documentation by Sept 21.",
+          "creator_name": "Ray Okonkwo",
+          "created_at": "2026-09-07T14:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "upd-013",
+      "item_id": "itm-8002",
+      "item_name": "OSHA 10-Hour Training Completion — Plant Floor",
+      "board_id": "brd-008",
+      "body": "Confirmed 17 completions. The 3 remaining employees are registered for the Sept 18 session at the local OSHA training center. Certificates will be scanned and uploaded here upon completion.",
+      "created_at": "2026-09-06T10:00:00Z",
+      "creator_id": "usr-104",
+      "creator_name": "Aisha Grant",
+      "likes_count": 1,
+      "replies": []
+    },
+    {
+      "id": "upd-014",
+      "item_id": "itm-6001",
+      "item_name": "New Hire Onboarding — Marcus Webb (Engineer II)",
+      "board_id": "brd-006",
+      "body": "Marcus's first day went well. Safety orientation and facility tour completed. Badge activated. IT ticket opened for laptop and VPN. Benefits enrollment packet provided — deadline Sept 15.",
+      "created_at": "2026-09-08T08:00:00Z",
+      "creator_id": "usr-104",
+      "creator_name": "Aisha Grant",
+      "likes_count": 2,
+      "replies": [
+        {
+          "id": "upd-014-r1",
+          "body": "Welcome Marcus! Looking forward to working with you on the welding cell project.",
+          "creator_name": "Derek Holt",
+          "created_at": "2026-09-08T08:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "upd-015",
+      "item_id": "itm-5001",
+      "item_name": "Ironclad Steel — New Account Onboarding",
+      "board_id": "brd-005",
+      "body": "Portal credentials sent to Ironclad's procurement team. Product training webinar confirmed for Sept 15 at 10am EST. Credit application still outstanding — sent reminder to their AP contact.",
+      "created_at": "2026-09-05T11:00:00Z",
+      "creator_id": "usr-103",
+      "creator_name": "Jamie Sutherland",
+      "likes_count": 0,
+      "replies": []
+    },
+    {
+      "id": "upd-016",
+      "item_id": "itm-2005",
+      "item_name": "Incoming Material Inspection — Steel Coil Lot 88A",
+      "board_id": "brd-002",
+      "body": "Mill cert received and reviewed — chemistry is within spec per ASTM A1018. Hardness test in progress, 4 of 10 coil sections tested so far all passing. COC filed in lot documentation folder.",
+      "created_at": "2026-09-08T08:00:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "likes_count": 0,
+      "replies": []
+    },
+    {
+      "id": "upd-017",
+      "item_id": "itm-1002",
+      "item_name": "Conveyor System Upgrade — Plant B",
+      "board_id": "brd-001",
+      "body": "Three vendor quotes received. Preferred vendor is Rexnord at $42,500 for VFD package including installation support. Selected over competitors on delivery time (6 weeks vs 10). Awaiting PO approval from ops manager.",
+      "created_at": "2026-09-05T14:20:00Z",
+      "creator_id": "usr-101",
+      "creator_name": "Derek Holt",
+      "likes_count": 1,
+      "replies": []
+    },
+    {
+      "id": "upd-018",
+      "item_id": "itm-4003",
+      "item_name": "RFQ Follow-Up — Delta Components",
+      "board_id": "brd-004",
+      "body": "Discovery call with Delta Components confirmed for Sept 11 at 2pm. They're looking at a custom 150-ton press tooling solution. Sent pre-call questionnaire. Nina to join as technical resource.",
+      "created_at": "2026-09-08T08:00:00Z",
+      "creator_id": "usr-103",
+      "creator_name": "Jamie Sutherland",
+      "likes_count": 0,
+      "replies": []
+    },
+    {
+      "id": "upd-019",
+      "item_id": "itm-3002",
+      "item_name": "CNC Machine Calibration — VMC-12",
+      "board_id": "brd-003",
+      "body": "Calibration scheduled with Tom Kessler for Sept 22. Renishaw probe kit confirmed available in tool crib. Downtime window approved by operations for 6-10am.",
+      "created_at": "2026-09-01T10:00:00Z",
+      "creator_id": "usr-102",
+      "creator_name": "Ray Okonkwo",
+      "likes_count": 0,
+      "replies": []
+    },
+    {
+      "id": "upd-020",
+      "item_id": "itm-7003",
+      "item_name": "SharePoint Permissions — Sales Folder",
+      "board_id": "brd-007",
+      "body": "Permissions updated. Jamie Sutherland now has edit access to /Sales/Proposals and /Sales/Contracts. Read access granted for /Sales/Archive. Sent test access link — awaiting user confirmation.",
+      "created_at": "2026-09-07T10:00:00Z",
+      "creator_id": "usr-105",
+      "creator_name": "Ben Nakamura",
+      "likes_count": 0,
+      "replies": []
+    }
+  ],
+
+  "docs": [
+    {
+      "id": "doc-001",
+      "name": "Beast Industries SOP Library",
+      "workspace_id": "ws-001",
+      "created_at": "2023-05-01T09:00:00Z",
+      "updated_at": "2026-08-30T10:00:00Z",
+      "created_by": "Aisha Grant",
+      "url": "https://beastindustries.monday.com/docs/doc-001",
+      "content_summary": "Master library of standard operating procedures for all Beast Industries departments. Covers manufacturing processes, safety protocols, quality procedures, HR policies, and IT guidelines. Indexed by department and revision date.",
+      "tags": ["sop", "operations", "corporate", "quality"]
+    },
+    {
+      "id": "doc-002",
+      "name": "Engineering Specs Template",
+      "workspace_id": "ws-002",
+      "created_at": "2023-06-15T09:00:00Z",
+      "updated_at": "2026-07-10T14:00:00Z",
+      "created_by": "Derek Holt",
+      "url": "https://beastindustries.monday.com/docs/doc-002",
+      "content_summary": "Standard template for engineering specification documents. Includes sections for design requirements, material specifications, tolerancing standards (per ASME Y14.5), test criteria, and revision history. Used for all new product development and ECO submissions.",
+      "tags": ["engineering", "template", "specifications", "design"]
+    },
+    {
+      "id": "doc-003",
+      "name": "Sales Playbook — Industrial Equipment",
+      "workspace_id": "ws-003",
+      "created_at": "2023-07-01T10:00:00Z",
+      "updated_at": "2026-06-20T11:00:00Z",
+      "created_by": "Jamie Sutherland",
+      "url": "https://beastindustries.monday.com/docs/doc-003",
+      "content_summary": "Sales methodology and playbook for Beast Industries industrial equipment sales team. Covers ICP profiles, discovery call frameworks, objection handling for common buyer concerns (price, lead time, support), proposal templates, and deal stage definitions.",
+      "tags": ["sales", "playbook", "methodology"]
+    },
+    {
+      "id": "doc-004",
+      "name": "HR Handbook — Beast Industries",
+      "workspace_id": "ws-003",
+      "created_at": "2023-04-01T09:00:00Z",
+      "updated_at": "2026-01-15T09:00:00Z",
+      "created_by": "Aisha Grant",
+      "url": "https://beastindustries.monday.com/docs/doc-004",
+      "content_summary": "Employee handbook covering company policies, code of conduct, benefits overview, PTO and leave policies, performance review cycle, safety responsibilities, and disciplinary procedures. All employees must acknowledge receipt on their first day.",
+      "tags": ["hr", "handbook", "policy", "employees"]
+    },
+    {
+      "id": "doc-005",
+      "name": "Compliance Checklist — ISO 9001 & OSHA",
+      "workspace_id": "ws-003",
+      "created_at": "2024-01-10T09:00:00Z",
+      "updated_at": "2026-09-01T08:00:00Z",
+      "created_by": "Aisha Grant",
+      "url": "https://beastindustries.monday.com/docs/doc-005",
+      "content_summary": "Master compliance checklist for ISO 9001:2015 quality management system requirements and OSHA 1910 general industry standards. Used for internal audits and surveillance audit preparation. Includes evidence artifact requirements for each clause.",
+      "tags": ["compliance", "iso9001", "osha", "audit"]
+    }
+  ],
+
+  "forms": [
+    {
+      "id": "frm-001",
+      "name": "Equipment Maintenance Request",
+      "board_id": "brd-003",
+      "board_name": "Equipment Maintenance Schedule",
+      "description": "Submit a maintenance request for any Beast Industries equipment. Include equipment ID, description of issue, and urgency level. Submissions route directly to the Equipment Maintenance Schedule board.",
+      "is_active": true,
+      "submissions_count": 34,
+      "created_at": "2023-05-01T09:00:00Z",
+      "url": "https://beastindustries.monday.com/forms/frm-001"
+    },
+    {
+      "id": "frm-002",
+      "name": "IT Support Request",
+      "board_id": "brd-007",
+      "board_name": "IT Requests",
+      "description": "Submit IT helpdesk requests including hardware issues, software access, VPN setup, email configuration, and SharePoint permissions. Routed to IT team via Serval integration.",
+      "is_active": true,
+      "submissions_count": 112,
+      "created_at": "2023-05-15T10:00:00Z",
+      "url": "https://beastindustries.monday.com/forms/frm-002"
+    },
+    {
+      "id": "frm-003",
+      "name": "New Hire Setup Request",
+      "board_id": "brd-006",
+      "board_name": "HR & Onboarding",
+      "description": "HR form for initiating new hire onboarding. Captures employee name, start date, department, manager, required equipment, and system access needs. Triggers onboarding checklist creation in the HR & Onboarding board.",
+      "is_active": true,
+      "submissions_count": 18,
+      "created_at": "2023-06-01T09:00:00Z",
+      "url": "https://beastindustries.monday.com/forms/frm-003"
+    },
+    {
+      "id": "frm-004",
+      "name": "Customer Feedback Form",
+      "board_id": "brd-005",
+      "board_name": "Customer Onboarding",
+      "description": "Post-onboarding customer satisfaction survey. Collects NPS score, onboarding experience rating, and open feedback. Results reviewed monthly by Sales and Customer Success teams.",
+      "is_active": true,
+      "submissions_count": 9,
+      "created_at": "2024-03-01T10:00:00Z",
+      "url": "https://beastindustries.monday.com/forms/frm-004"
+    }
+  ],
+
+  "dashboards": [
+    {
+      "id": "dsh-001",
+      "name": "Operations Overview",
+      "workspace_id": "ws-002",
+      "created_at": "2023-03-01T09:00:00Z",
+      "updated_at": "2026-09-08T06:00:00Z",
+      "owner_id": "usr-102",
+      "widgets_count": 8,
+      "description": "Real-time overview of manufacturing and operations KPIs. Includes production run status, equipment maintenance completion rate, open quality holds, and line utilization metrics across Plant A and Plant B."
+    },
+    {
+      "id": "dsh-002",
+      "name": "Sales Performance",
+      "workspace_id": "ws-003",
+      "created_at": "2023-04-01T10:00:00Z",
+      "updated_at": "2026-09-07T18:00:00Z",
+      "owner_id": "usr-103",
+      "widgets_count": 6,
+      "description": "Sales pipeline health dashboard. Tracks deal value by stage, win/loss ratio, average deal cycle time, and quota attainment by rep. Refreshed daily from the Sales Pipeline board."
+    },
+    {
+      "id": "dsh-003",
+      "name": "Executive Summary",
+      "workspace_id": "ws-001",
+      "created_at": "2023-06-01T09:00:00Z",
+      "updated_at": "2026-09-07T20:00:00Z",
+      "owner_id": "usr-104",
+      "widgets_count": 10,
+      "description": "Executive-level rollup across all Beast Industries workspaces. Covers open items by department, overdue tasks, compliance status, active sales value, and production throughput. Presented in weekly leadership reviews."
+    }
+  ],
+
+  "column_types": [
+    {
+      "types": [
+        {"id": "status", "title": "Status", "type": "status"},
+        {"id": "priority", "title": "Priority", "type": "color"},
+        {"id": "due_date", "title": "Due Date", "type": "date"},
+        {"id": "progress_pct", "title": "Progress (%)", "type": "numbers"},
+        {"id": "notes", "title": "Notes", "type": "long_text"},
+        {"id": "assignee", "title": "Assignee", "type": "people"},
+        {"id": "tags", "title": "Tags", "type": "tags"},
+        {"id": "board_relation", "title": "Board Relation", "type": "board_relation"},
+        {"id": "timeline", "title": "Timeline", "type": "timeline"},
+        {"id": "files", "title": "Files", "type": "file"},
+        {"id": "link", "title": "Link", "type": "link"},
+        {"id": "checkbox", "title": "Checkbox", "type": "checkbox"},
+        {"id": "numbers", "title": "Numbers", "type": "numbers"},
+        {"id": "text", "title": "Text", "type": "text"},
+        {"id": "email", "title": "Email", "type": "email"},
+        {"id": "phone", "title": "Phone", "type": "phone"},
+        {"id": "dropdown", "title": "Dropdown", "type": "dropdown"},
+        {"id": "rating", "title": "Rating", "type": "rating"},
+        {"id": "world_clock", "title": "World Clock", "type": "world_clock"},
+        {"id": "auto_number", "title": "Auto Number", "type": "auto_number"}
+      ]
+    }
+  ]
+}

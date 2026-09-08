@@ -1,0 +1,8 @@
+display_information:
+  name: Monday.com (Mock)
+  description: Mock Monday.com work OS for Beast Industries — boards, items, updates, and dashboards
+
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
