@@ -2,27 +2,26 @@
   "workspaces": [
     {
       "id": "ws-001",
-      "name": "Beast Industries HQ",
+      "name": "Summit Ventures HQ",
       "kind": "open",
-      "description": "Parent company cross-functional workspace. Covers integrations across the Beast portfolio, creator partnerships, Beast Games production, and exec-level ops.",
+      "description": "Parent company cross-functional workspace. Covers integrations across the Beast portfolio, creator partnerships, Summit Games production, and exec-level ops.",
       "created_at": "2026-02-10T09:00:00Z"
     },
     {
       "id": "ws-002",
       "name": "Step",
       "kind": "open",
-      "description": "All things Step — the teen fintech app Beast Industries acquired in February 2026. Product roadmap, engineering sprints, growth marketing, and customer support.",
+      "description": "All things Step — the teen fintech app Summit Ventures acquired in February 2026. Product roadmap, engineering sprints, growth marketing, and customer support.",
       "created_at": "2026-02-15T10:00:00Z"
     },
     {
       "id": "ws-003",
       "name": "Brand Portfolio",
       "kind": "open",
-      "description": "Feastables, Lunchly, and MrBeast Burger brand campaigns, product launches, and retail ops.",
+      "description": "TreatCo, LunchBox, and The Summit Burger brand campaigns, product launches, and retail ops.",
       "created_at": "2026-02-10T09:30:00Z"
     }
   ],
-
   "folders": [
     {
       "id": "fld-001",
@@ -52,7 +51,6 @@
       "children_count": 3
     }
   ],
-
   "boards": [
     {
       "id": "brd-001",
@@ -69,7 +67,12 @@
       "permissions": "everyone",
       "columns_count": 8,
       "items_count": 5,
-      "tags": ["step", "product", "roadmap", "fintech"]
+      "tags": [
+        "step",
+        "product",
+        "roadmap",
+        "fintech"
+      ]
     },
     {
       "id": "brd-002",
@@ -86,7 +89,12 @@
       "permissions": "everyone",
       "columns_count": 8,
       "items_count": 5,
-      "tags": ["step", "growth", "marketing", "user-acquisition"]
+      "tags": [
+        "step",
+        "growth",
+        "marketing",
+        "user-acquisition"
+      ]
     },
     {
       "id": "brd-003",
@@ -103,7 +111,12 @@
       "permissions": "everyone",
       "columns_count": 9,
       "items_count": 5,
-      "tags": ["step", "engineering", "sprints", "mobile"]
+      "tags": [
+        "step",
+        "engineering",
+        "sprints",
+        "mobile"
+      ]
     },
     {
       "id": "brd-004",
@@ -120,14 +133,19 @@
       "permissions": "everyone",
       "columns_count": 8,
       "items_count": 4,
-      "tags": ["step", "cx", "support", "tickets"]
+      "tags": [
+        "step",
+        "cx",
+        "support",
+        "tickets"
+      ]
     },
     {
       "id": "brd-005",
-      "name": "Beast Industries Integrations",
-      "description": "Cross-functional projects connecting Step with Beast's other brands — Feastables loyalty, merch checkout, Beast Games prize payouts.",
+      "name": "Summit Ventures Integrations",
+      "description": "Cross-functional projects connecting Step with Beast's other brands — TreatCo loyalty, merch checkout, Summit Games prize payouts.",
       "workspace_id": "ws-001",
-      "workspace_name": "Beast Industries HQ",
+      "workspace_name": "Summit Ventures HQ",
       "board_kind": "public",
       "state": "active",
       "board_folder_id": "fld-003",
@@ -137,12 +155,17 @@
       "permissions": "everyone",
       "columns_count": 8,
       "items_count": 3,
-      "tags": ["integrations", "step", "beast-ecosystem", "cross-functional"]
+      "tags": [
+        "integrations",
+        "step",
+        "beast-ecosystem",
+        "cross-functional"
+      ]
     },
     {
       "id": "brd-006",
-      "name": "Feastables & Lunchly Campaigns",
-      "description": "Product launches, retail expansions, limited edition drops, and brand collabs for Feastables and Lunchly.",
+      "name": "TreatCo & LunchBox Campaigns",
+      "description": "Product launches, retail expansions, limited edition drops, and brand collabs for TreatCo and LunchBox.",
       "workspace_id": "ws-003",
       "workspace_name": "Brand Portfolio",
       "board_kind": "public",
@@ -154,14 +177,19 @@
       "permissions": "everyone",
       "columns_count": 8,
       "items_count": 3,
-      "tags": ["feastables", "lunchly", "campaigns", "brand"]
+      "tags": [
+        "feastables",
+        "lunchly",
+        "campaigns",
+        "brand"
+      ]
     },
     {
       "id": "brd-007",
-      "name": "Beast Games Production",
-      "description": "Planning and production tracking for Beast Games on Amazon Prime. Episode milestones, vendor coordination, and post-production deliverables.",
+      "name": "Summit Games Production",
+      "description": "Planning and production tracking for Summit Games on MarketHub Prime. Episode milestones, vendor coordination, and post-production deliverables.",
       "workspace_id": "ws-001",
-      "workspace_name": "Beast Industries HQ",
+      "workspace_name": "Summit Ventures HQ",
       "board_kind": "private",
       "state": "active",
       "board_folder_id": "fld-003",
@@ -171,14 +199,19 @@
       "permissions": "owners",
       "columns_count": 8,
       "items_count": 3,
-      "tags": ["beast-games", "amazon-prime", "production", "show"]
+      "tags": [
+        "beast-games",
+        "amazon-prime",
+        "production",
+        "show"
+      ]
     },
     {
       "id": "brd-008",
       "name": "Creator Partnerships",
-      "description": "Influencer deals, brand ambassador programs, and creator collab negotiations for the Beast Industries portfolio.",
+      "description": "Influencer deals, brand ambassador programs, and creator collab negotiations for the Summit Ventures portfolio.",
       "workspace_id": "ws-001",
-      "workspace_name": "Beast Industries HQ",
+      "workspace_name": "Summit Ventures HQ",
       "board_kind": "public",
       "state": "active",
       "board_folder_id": "fld-003",
@@ -188,10 +221,14 @@
       "permissions": "everyone",
       "columns_count": 8,
       "items_count": 3,
-      "tags": ["creator", "partnerships", "influencer", "collab"]
+      "tags": [
+        "creator",
+        "partnerships",
+        "influencer",
+        "collab"
+      ]
     }
   ],
-
   "groups": [
     {
       "id": "grp-001-1",
@@ -327,7 +364,7 @@
       "id": "grp-005-1",
       "title": "Scoping",
       "board_id": "brd-005",
-      "board_name": "Beast Industries Integrations",
+      "board_name": "Summit Ventures Integrations",
       "color": "#c4c4c4",
       "position": 1,
       "archived": false,
@@ -337,7 +374,7 @@
       "id": "grp-005-2",
       "title": "In Development",
       "board_id": "brd-005",
-      "board_name": "Beast Industries Integrations",
+      "board_name": "Summit Ventures Integrations",
       "color": "#0073ea",
       "position": 2,
       "archived": false,
@@ -347,7 +384,7 @@
       "id": "grp-006-1",
       "title": "Upcoming Launches",
       "board_id": "brd-006",
-      "board_name": "Feastables & Lunchly Campaigns",
+      "board_name": "TreatCo & LunchBox Campaigns",
       "color": "#fdab3d",
       "position": 1,
       "archived": false,
@@ -357,7 +394,7 @@
       "id": "grp-006-2",
       "title": "Live",
       "board_id": "brd-006",
-      "board_name": "Feastables & Lunchly Campaigns",
+      "board_name": "TreatCo & LunchBox Campaigns",
       "color": "#00ca72",
       "position": 2,
       "archived": false,
@@ -367,7 +404,7 @@
       "id": "grp-007-1",
       "title": "Pre-Production",
       "board_id": "brd-007",
-      "board_name": "Beast Games Production",
+      "board_name": "Summit Games Production",
       "color": "#c4c4c4",
       "position": 1,
       "archived": false,
@@ -377,7 +414,7 @@
       "id": "grp-007-2",
       "title": "In Production",
       "board_id": "brd-007",
-      "board_name": "Beast Games Production",
+      "board_name": "Summit Games Production",
       "color": "#0073ea",
       "position": 2,
       "archived": false,
@@ -387,7 +424,7 @@
       "id": "grp-007-3",
       "title": "Post-Production",
       "board_id": "brd-007",
-      "board_name": "Beast Games Production",
+      "board_name": "Summit Games Production",
       "color": "#fdab3d",
       "position": 3,
       "archived": false,
@@ -424,7 +461,6 @@
       "items_count": 0
     }
   ],
-
   "items": [
     {
       "id": "itm-1001",
@@ -437,7 +473,10 @@
       "created_at": "2026-07-10T10:00:00Z",
       "updated_at": "2026-09-05T15:00:00Z",
       "creator_name": "Priya Mehta",
-      "assignee_names": ["Priya Mehta", "Dev Patel"],
+      "assignee_names": [
+        "Priya Mehta",
+        "Dev Patel"
+      ],
       "column_values": {
         "status": "Next",
         "priority": "High",
@@ -445,7 +484,12 @@
         "progress_pct": 15,
         "notes": "Allowing teens to allocate a % of deposits into a Bitcoin savings bucket. Need to scope custodial wallet compliance requirements first."
       },
-      "tags": ["step", "product", "crypto", "savings"]
+      "tags": [
+        "step",
+        "product",
+        "crypto",
+        "savings"
+      ]
     },
     {
       "id": "itm-1002",
@@ -458,7 +502,10 @@
       "created_at": "2026-06-01T09:00:00Z",
       "updated_at": "2026-09-07T17:00:00Z",
       "creator_name": "Priya Mehta",
-      "assignee_names": ["Priya Mehta", "Jake Osei"],
+      "assignee_names": [
+        "Priya Mehta",
+        "Jake Osei"
+      ],
       "column_values": {
         "status": "In Development",
         "priority": "Critical",
@@ -466,7 +513,12 @@
         "progress_pct": 70,
         "notes": "v2 card has new Beast-branded design, tap-to-pay, and higher daily spend limit. Visa onboarding for new BIN range finalized. Card art approved by Jimmy."
       },
-      "tags": ["step", "product", "debit-card", "visa"]
+      "tags": [
+        "step",
+        "product",
+        "debit-card",
+        "visa"
+      ]
     },
     {
       "id": "itm-1003",
@@ -479,7 +531,10 @@
       "created_at": "2026-05-15T10:00:00Z",
       "updated_at": "2026-09-06T12:00:00Z",
       "creator_name": "Priya Mehta",
-      "assignee_names": ["Dev Patel", "Sofia Reyes"],
+      "assignee_names": [
+        "Dev Patel",
+        "Sofia Reyes"
+      ],
       "column_values": {
         "status": "In Development",
         "priority": "High",
@@ -487,7 +542,12 @@
         "progress_pct": 55,
         "notes": "Parents need spending category blocks, real-time alerts, and transfer approval flows. This is a top feature request from onboarding survey feedback."
       },
-      "tags": ["step", "product", "parental-controls", "safety"]
+      "tags": [
+        "step",
+        "product",
+        "parental-controls",
+        "safety"
+      ]
     },
     {
       "id": "itm-1004",
@@ -508,7 +568,12 @@
         "progress_pct": 5,
         "notes": "P2P between Step users — basically Venmo for teens. Needs fraud modeling and regulatory review before we start building."
       },
-      "tags": ["step", "product", "p2p", "payments"]
+      "tags": [
+        "step",
+        "product",
+        "p2p",
+        "payments"
+      ]
     },
     {
       "id": "itm-1005",
@@ -521,7 +586,9 @@
       "created_at": "2026-03-01T09:00:00Z",
       "updated_at": "2026-08-01T16:00:00Z",
       "creator_name": "Priya Mehta",
-      "assignee_names": ["Dev Patel"],
+      "assignee_names": [
+        "Dev Patel"
+      ],
       "column_values": {
         "status": "Launched",
         "priority": "High",
@@ -529,11 +596,16 @@
         "progress_pct": 100,
         "notes": "Shipped Aug 1. Users can see their credit score directly in the app via Experian integration. DAU engagement up 18% since launch. 🎉"
       },
-      "tags": ["step", "product", "credit", "launched"]
+      "tags": [
+        "step",
+        "product",
+        "credit",
+        "launched"
+      ]
     },
     {
       "id": "itm-2001",
-      "name": "MrBeast YouTube integration campaign",
+      "name": "The Summit YouTube integration campaign",
       "board_id": "brd-002",
       "board_name": "Step Growth & Marketing",
       "group_id": "grp-002-1",
@@ -542,7 +614,10 @@
       "created_at": "2026-07-15T09:00:00Z",
       "updated_at": "2026-09-08T08:00:00Z",
       "creator_name": "Mia Torres",
-      "assignee_names": ["Mia Torres", "Jake Osei"],
+      "assignee_names": [
+        "Mia Torres",
+        "Jake Osei"
+      ],
       "column_values": {
         "status": "Active",
         "priority": "Critical",
@@ -550,7 +625,12 @@
         "progress_pct": 60,
         "notes": "Step mention drops in Jimmy's next video (est. 200M views). CTA drives to step.com/beast. Landing page is live. Attribution pixel confirmed with eng team."
       },
-      "tags": ["step", "growth", "youtube", "mrbeast"]
+      "tags": [
+        "step",
+        "growth",
+        "youtube",
+        "mrbeast"
+      ]
     },
     {
       "id": "itm-2002",
@@ -563,7 +643,9 @@
       "created_at": "2026-07-20T10:00:00Z",
       "updated_at": "2026-09-07T11:00:00Z",
       "creator_name": "Mia Torres",
-      "assignee_names": ["Mia Torres"],
+      "assignee_names": [
+        "Mia Torres"
+      ],
       "column_values": {
         "status": "Active",
         "priority": "High",
@@ -571,7 +653,12 @@
         "progress_pct": 75,
         "notes": "BTS push running Aug 20–Sept 15. Paid social on TikTok + Instagram. $200K budget. Currently at 47K new signups vs 60K goal. CPL tracking at $4.26."
       },
-      "tags": ["step", "growth", "back-to-school", "paid-social"]
+      "tags": [
+        "step",
+        "growth",
+        "back-to-school",
+        "paid-social"
+      ]
     },
     {
       "id": "itm-2003",
@@ -584,7 +671,9 @@
       "created_at": "2026-08-10T10:00:00Z",
       "updated_at": "2026-09-04T14:00:00Z",
       "creator_name": "Mia Torres",
-      "assignee_names": ["Jake Osei"],
+      "assignee_names": [
+        "Jake Osei"
+      ],
       "column_values": {
         "status": "In Planning",
         "priority": "High",
@@ -592,7 +681,12 @@
         "progress_pct": 30,
         "notes": "Seeding Step debit cards to 150 teen/Gen-Z creators (10K–500K followers). Card kits being designed. Shortlisting creators now via Aspire."
       },
-      "tags": ["step", "growth", "influencer", "seeding"]
+      "tags": [
+        "step",
+        "growth",
+        "influencer",
+        "seeding"
+      ]
     },
     {
       "id": "itm-2004",
@@ -605,7 +699,10 @@
       "created_at": "2026-08-25T11:00:00Z",
       "updated_at": "2026-09-06T15:00:00Z",
       "creator_name": "Mia Torres",
-      "assignee_names": ["Mia Torres", "Sofia Reyes"],
+      "assignee_names": [
+        "Mia Torres",
+        "Sofia Reyes"
+      ],
       "column_values": {
         "status": "In Planning",
         "priority": "Medium",
@@ -613,7 +710,13 @@
         "progress_pct": 20,
         "notes": "A/B testing 6 TikTok creatives — 3 UGC-style, 3 polished. Testing $5K each before scaling winner. Creative briefs sent to production team."
       },
-      "tags": ["step", "growth", "tiktok", "paid-social", "creative"]
+      "tags": [
+        "step",
+        "growth",
+        "tiktok",
+        "paid-social",
+        "creative"
+      ]
     },
     {
       "id": "itm-2005",
@@ -626,7 +729,10 @@
       "created_at": "2026-06-01T09:00:00Z",
       "updated_at": "2026-08-28T16:00:00Z",
       "creator_name": "Mia Torres",
-      "assignee_names": ["Mia Torres", "Dev Patel"],
+      "assignee_names": [
+        "Mia Torres",
+        "Dev Patel"
+      ],
       "column_values": {
         "status": "Completed",
         "priority": "High",
@@ -634,7 +740,12 @@
         "progress_pct": 100,
         "notes": "Shipped Aug 25 — new onboarding flow for 18-year-olds aging up to full Step accounts. Completion rate up 22% vs old flow. Rolled out to all new signups."
       },
-      "tags": ["step", "growth", "onboarding", "college"]
+      "tags": [
+        "step",
+        "growth",
+        "onboarding",
+        "college"
+      ]
     },
     {
       "id": "itm-3001",
@@ -647,7 +758,10 @@
       "created_at": "2026-09-01T09:00:00Z",
       "updated_at": "2026-09-08T10:00:00Z",
       "creator_name": "Dev Patel",
-      "assignee_names": ["Dev Patel", "Ryo Tanaka"],
+      "assignee_names": [
+        "Dev Patel",
+        "Ryo Tanaka"
+      ],
       "column_values": {
         "status": "In Progress",
         "priority": "Critical",
@@ -655,7 +769,13 @@
         "progress_pct": 65,
         "notes": "P95 transaction latency spiked to 3.2s after the Aug 30 deploy. Root cause: N+1 query in payment authorization flow. Fix is in staging, testing looks good."
       },
-      "tags": ["step", "engineering", "bug", "payments", "performance"]
+      "tags": [
+        "step",
+        "engineering",
+        "bug",
+        "payments",
+        "performance"
+      ]
     },
     {
       "id": "itm-3002",
@@ -668,7 +788,9 @@
       "created_at": "2026-08-20T10:00:00Z",
       "updated_at": "2026-09-07T14:00:00Z",
       "creator_name": "Dev Patel",
-      "assignee_names": ["Sofia Reyes"],
+      "assignee_names": [
+        "Sofia Reyes"
+      ],
       "column_values": {
         "status": "In Review",
         "priority": "High",
@@ -676,7 +798,13 @@
         "progress_pct": 85,
         "notes": "iOS 18 drops Sept 16. App is compatible — fixed 2 deprecation warnings. Awaiting App Store review submission sign-off from Priya."
       },
-      "tags": ["step", "engineering", "ios", "mobile", "compatibility"]
+      "tags": [
+        "step",
+        "engineering",
+        "ios",
+        "mobile",
+        "compatibility"
+      ]
     },
     {
       "id": "itm-3003",
@@ -689,7 +817,9 @@
       "created_at": "2026-08-28T11:00:00Z",
       "updated_at": "2026-09-08T09:30:00Z",
       "creator_name": "Dev Patel",
-      "assignee_names": ["Ryo Tanaka"],
+      "assignee_names": [
+        "Ryo Tanaka"
+      ],
       "column_values": {
         "status": "In Progress",
         "priority": "High",
@@ -697,7 +827,13 @@
         "progress_pct": 40,
         "notes": "Refactoring KYC flow to support new Alloy SDK v3. Also improves step-up verification for users flagged by fraud model. Legal reviewed new consent copy."
       },
-      "tags": ["step", "engineering", "kyc", "compliance", "identity"]
+      "tags": [
+        "step",
+        "engineering",
+        "kyc",
+        "compliance",
+        "identity"
+      ]
     },
     {
       "id": "itm-3004",
@@ -710,15 +846,23 @@
       "created_at": "2026-09-02T10:00:00Z",
       "updated_at": "2026-09-07T16:00:00Z",
       "creator_name": "Dev Patel",
-      "assignee_names": ["Dev Patel"],
+      "assignee_names": [
+        "Dev Patel"
+      ],
       "column_values": {
         "status": "In Progress",
         "priority": "Medium",
         "due_date": "2026-09-19",
         "progress_pct": 50,
-        "notes": "New partner integrations (Feastables loyalty, merch store) need rate limiting on the Step API. Implementing token bucket per partner_id. PR open for review."
+        "notes": "New partner integrations (TreatCo loyalty, merch store) need rate limiting on the Step API. Implementing token bucket per partner_id. PR open for review."
       },
-      "tags": ["step", "engineering", "api", "partners", "infrastructure"]
+      "tags": [
+        "step",
+        "engineering",
+        "api",
+        "partners",
+        "infrastructure"
+      ]
     },
     {
       "id": "itm-3005",
@@ -731,7 +875,10 @@
       "created_at": "2026-07-01T09:00:00Z",
       "updated_at": "2026-08-22T11:00:00Z",
       "creator_name": "Dev Patel",
-      "assignee_names": ["Sofia Reyes", "Dev Patel"],
+      "assignee_names": [
+        "Sofia Reyes",
+        "Dev Patel"
+      ],
       "column_values": {
         "status": "Done",
         "priority": "Medium",
@@ -739,7 +886,13 @@
         "progress_pct": 100,
         "notes": "Shipped Aug 22 on iOS and Android. App Store rating went from 4.6 to 4.8 within a week. Most requested feature ever on our feedback board."
       },
-      "tags": ["step", "engineering", "dark-mode", "mobile", "shipped"]
+      "tags": [
+        "step",
+        "engineering",
+        "dark-mode",
+        "mobile",
+        "shipped"
+      ]
     },
     {
       "id": "itm-4001",
@@ -752,7 +905,9 @@
       "created_at": "2026-09-06T14:00:00Z",
       "updated_at": "2026-09-08T09:00:00Z",
       "creator_name": "Aaliya Brooks",
-      "assignee_names": ["Aaliya Brooks"],
+      "assignee_names": [
+        "Aaliya Brooks"
+      ],
       "column_values": {
         "status": "Open",
         "priority": "High",
@@ -760,7 +915,13 @@
         "progress_pct": 10,
         "notes": "Spike in KYC failures this week — ~300 tickets since Sept 5. Likely related to Alloy SDK upgrade in progress. Eng team aware and working a hotfix."
       },
-      "tags": ["step", "cx", "kyc", "identity", "bug"]
+      "tags": [
+        "step",
+        "cx",
+        "kyc",
+        "identity",
+        "bug"
+      ]
     },
     {
       "id": "itm-4002",
@@ -773,7 +934,10 @@
       "created_at": "2026-09-01T10:00:00Z",
       "updated_at": "2026-09-07T15:00:00Z",
       "creator_name": "Aaliya Brooks",
-      "assignee_names": ["Aaliya Brooks", "Marcus Lin"],
+      "assignee_names": [
+        "Aaliya Brooks",
+        "Marcus Lin"
+      ],
       "column_values": {
         "status": "In Progress",
         "priority": "Medium",
@@ -781,7 +945,12 @@
         "progress_pct": 40,
         "notes": "Ongoing issue — card fulfillment vendor Idemia had a print delay in late August. ~180 cards stuck. Working with Idemia on expedited re-issue. Notifying affected users."
       },
-      "tags": ["step", "cx", "debit-card", "fulfillment"]
+      "tags": [
+        "step",
+        "cx",
+        "debit-card",
+        "fulfillment"
+      ]
     },
     {
       "id": "itm-4003",
@@ -802,7 +971,12 @@
         "progress_pct": 0,
         "notes": "Parents can't link to teen accounts after parental controls dashboard rollout. Reproducible on iOS 17.5+. Ticket sent to eng — looks like a session token scoping bug."
       },
-      "tags": ["step", "cx", "parental-controls", "bug"]
+      "tags": [
+        "step",
+        "cx",
+        "parental-controls",
+        "bug"
+      ]
     },
     {
       "id": "itm-4004",
@@ -815,7 +989,10 @@
       "created_at": "2026-08-25T09:00:00Z",
       "updated_at": "2026-09-08T10:45:00Z",
       "creator_name": "Aaliya Brooks",
-      "assignee_names": ["Aaliya Brooks", "Marcus Lin"],
+      "assignee_names": [
+        "Aaliya Brooks",
+        "Marcus Lin"
+      ],
       "column_values": {
         "status": "Escalated",
         "priority": "Critical",
@@ -823,104 +1000,144 @@
         "progress_pct": 25,
         "notes": "~90 unresolved chargeback disputes >14 days old — Visa requires resolution in 30 days. Escalated to Head of CX and COO. Need temp staffing support to clear backlog."
       },
-      "tags": ["step", "cx", "chargeback", "dispute", "escalated"]
+      "tags": [
+        "step",
+        "cx",
+        "chargeback",
+        "dispute",
+        "escalated"
+      ]
     },
     {
       "id": "itm-5001",
-      "name": "Feastables loyalty points via Step wallet",
+      "name": "TreatCo loyalty points via Step wallet",
       "board_id": "brd-005",
-      "board_name": "Beast Industries Integrations",
+      "board_name": "Summit Ventures Integrations",
       "group_id": "grp-005-2",
       "group_name": "In Development",
       "state": "active",
       "created_at": "2026-04-01T10:00:00Z",
       "updated_at": "2026-09-06T14:00:00Z",
       "creator_name": "Carlos Reyes",
-      "assignee_names": ["Carlos Reyes", "Dev Patel"],
+      "assignee_names": [
+        "Carlos Reyes",
+        "Dev Patel"
+      ],
       "column_values": {
         "status": "In Development",
         "priority": "High",
         "due_date": "2026-11-01",
         "progress_pct": 45,
-        "notes": "When a Step user buys Feastables with their Step card, they earn loyalty points visible in the Step app. API contract between Step and Feastables backend is drafted."
+        "notes": "When a Step user buys TreatCo with their Step card, they earn loyalty points visible in the Vault. API contract between Step and TreatCo backend is drafted."
       },
-      "tags": ["step", "feastables", "integration", "loyalty"]
+      "tags": [
+        "step",
+        "feastables",
+        "integration",
+        "loyalty"
+      ]
     },
     {
       "id": "itm-5002",
-      "name": "MrBeast merch store Step checkout",
+      "name": "The Summit merch store Step checkout",
       "board_id": "brd-005",
-      "board_name": "Beast Industries Integrations",
+      "board_name": "Summit Ventures Integrations",
       "group_id": "grp-005-2",
       "group_name": "In Development",
       "state": "active",
       "created_at": "2026-05-10T10:00:00Z",
       "updated_at": "2026-09-04T13:00:00Z",
       "creator_name": "Carlos Reyes",
-      "assignee_names": ["Ryo Tanaka", "Carlos Reyes"],
+      "assignee_names": [
+        "Ryo Tanaka",
+        "Carlos Reyes"
+      ],
       "column_values": {
         "status": "In Development",
         "priority": "High",
         "due_date": "2026-10-15",
         "progress_pct": 60,
-        "notes": "Adding Step as a native checkout option on shopmrbeast.com. Shopify plugin approach — Step Pay SDK. QA in progress on sandbox. Waiting on Shopify partnership approval."
+        "notes": "Adding Step as a native checkout option on shopmrbeast.com. CommercePro plugin approach — Step Pay SDK. QA in progress on sandbox. Waiting on CommercePro partnership approval."
       },
-      "tags": ["step", "merch", "shopify", "integration", "checkout"]
+      "tags": [
+        "step",
+        "merch",
+        "shopify",
+        "integration",
+        "checkout"
+      ]
     },
     {
       "id": "itm-5003",
-      "name": "Beast Games prize payout via Step",
+      "name": "Summit Games prize payout via Step",
       "board_id": "brd-005",
-      "board_name": "Beast Industries Integrations",
+      "board_name": "Summit Ventures Integrations",
       "group_id": "grp-005-1",
       "group_name": "Scoping",
       "state": "active",
       "created_at": "2026-08-15T11:00:00Z",
       "updated_at": "2026-09-05T10:00:00Z",
       "creator_name": "Carlos Reyes",
-      "assignee_names": ["Carlos Reyes"],
+      "assignee_names": [
+        "Carlos Reyes"
+      ],
       "column_values": {
         "status": "Scoping",
         "priority": "High",
         "due_date": "2026-10-01",
         "progress_pct": 10,
-        "notes": "Idea: Beast Games winners (Season 2) receive prize money deposited directly to their Step account. Huge acquisition play for Step. Legal needs to review prize payout regulations first."
+        "notes": "Idea: Summit Games winners (Season 2) receive prize money deposited directly to their Step account. Huge acquisition play for Step. Legal needs to review prize payout regulations first."
       },
-      "tags": ["step", "beast-games", "integration", "prizes"]
+      "tags": [
+        "step",
+        "beast-games",
+        "integration",
+        "prizes"
+      ]
     },
     {
       "id": "itm-6001",
-      "name": "Lunchly x Step collab launch",
+      "name": "LunchBox x Step collab launch",
       "board_id": "brd-006",
-      "board_name": "Feastables & Lunchly Campaigns",
+      "board_name": "TreatCo & LunchBox Campaigns",
       "group_id": "grp-006-1",
       "group_name": "Upcoming Launches",
       "state": "active",
       "created_at": "2026-07-20T10:00:00Z",
       "updated_at": "2026-09-05T16:00:00Z",
       "creator_name": "Jordan Kim",
-      "assignee_names": ["Jordan Kim", "Mia Torres"],
+      "assignee_names": [
+        "Jordan Kim",
+        "Mia Torres"
+      ],
       "column_values": {
         "status": "In Planning",
         "priority": "High",
         "due_date": "2026-10-01",
         "progress_pct": 50,
-        "notes": "Lunchly pack with a Step QR code inside — scan to get $5 in your Step account. Packaging printer confirmed. Step eng building QR redemption flow. Launch tied to BTS season."
+        "notes": "LunchBox pack with a Step QR code inside — scan to get $5 in your Step account. Packaging printer confirmed. Step eng building QR redemption flow. Launch tied to BTS season."
       },
-      "tags": ["lunchly", "step", "collab", "promotion"]
+      "tags": [
+        "lunchly",
+        "step",
+        "collab",
+        "promotion"
+      ]
     },
     {
       "id": "itm-6002",
-      "name": "Back-to-school Feastables limited edition",
+      "name": "Back-to-school TreatCo limited edition",
       "board_id": "brd-006",
-      "board_name": "Feastables & Lunchly Campaigns",
+      "board_name": "TreatCo & LunchBox Campaigns",
       "group_id": "grp-006-1",
       "group_name": "Upcoming Launches",
       "state": "active",
       "created_at": "2026-07-01T09:00:00Z",
       "updated_at": "2026-09-04T11:00:00Z",
       "creator_name": "Jordan Kim",
-      "assignee_names": ["Jordan Kim"],
+      "assignee_names": [
+        "Jordan Kim"
+      ],
       "column_values": {
         "status": "In Planning",
         "priority": "Medium",
@@ -928,62 +1145,84 @@
         "progress_pct": 65,
         "notes": "BTS limited edition — 'Pencil Case' packaging on Deez Nuts bar. 500K units. Walmart exclusive for first 2 weeks. Packaging approved, production on track."
       },
-      "tags": ["feastables", "limited-edition", "walmart", "bts"]
+      "tags": [
+        "feastables",
+        "limited-edition",
+        "walmart",
+        "bts"
+      ]
     },
     {
       "id": "itm-6003",
       "name": "Walmart shelf expansion Q4",
       "board_id": "brd-006",
-      "board_name": "Feastables & Lunchly Campaigns",
+      "board_name": "TreatCo & LunchBox Campaigns",
       "group_id": "grp-006-2",
       "group_name": "Live",
       "state": "active",
       "created_at": "2026-05-01T09:00:00Z",
       "updated_at": "2026-08-30T14:00:00Z",
       "creator_name": "Jordan Kim",
-      "assignee_names": ["Jordan Kim"],
+      "assignee_names": [
+        "Jordan Kim"
+      ],
       "column_values": {
         "status": "Live",
         "priority": "High",
         "due_date": "2026-10-31",
         "progress_pct": 80,
-        "notes": "Feastables expanding from 1,200 to 2,800 Walmart doors in Q4. Planogram submitted and approved. First wave of new doors going live Oct 1."
+        "notes": "TreatCo expanding from 1,200 to 2,800 Walmart doors in Q4. Planogram submitted and approved. First wave of new doors going live Oct 1."
       },
-      "tags": ["feastables", "walmart", "retail", "expansion"]
+      "tags": [
+        "feastables",
+        "walmart",
+        "retail",
+        "expansion"
+      ]
     },
     {
       "id": "itm-7001",
-      "name": "Beast Games Season 2 — episode brief finalization",
+      "name": "Summit Games Season 2 — episode brief finalization",
       "board_id": "brd-007",
-      "board_name": "Beast Games Production",
+      "board_name": "Summit Games Production",
       "group_id": "grp-007-1",
       "group_name": "Pre-Production",
       "state": "active",
       "created_at": "2026-08-01T10:00:00Z",
       "updated_at": "2026-09-07T13:00:00Z",
       "creator_name": "Tyler Brooks",
-      "assignee_names": ["Tyler Brooks"],
+      "assignee_names": [
+        "Tyler Brooks"
+      ],
       "column_values": {
         "status": "In Progress",
         "priority": "Critical",
         "due_date": "2026-09-20",
         "progress_pct": 70,
-        "notes": "Jimmy's approved the core game concepts for all 10 episodes. Writers room finalizing challenge rules and pacing. Amazon Prime review call scheduled Sept 18."
+        "notes": "Jimmy's approved the core game concepts for all 10 episodes. Writers room finalizing challenge rules and pacing. MarketHub Prime review call scheduled Sept 18."
       },
-      "tags": ["beast-games", "production", "season-2", "amazon"]
+      "tags": [
+        "beast-games",
+        "production",
+        "season-2",
+        "amazon"
+      ]
     },
     {
       "id": "itm-7002",
       "name": "Contestant casting and logistics",
       "board_id": "brd-007",
-      "board_name": "Beast Games Production",
+      "board_name": "Summit Games Production",
       "group_id": "grp-007-2",
       "group_name": "In Production",
       "state": "active",
       "created_at": "2026-08-15T09:00:00Z",
       "updated_at": "2026-09-06T15:00:00Z",
       "creator_name": "Tyler Brooks",
-      "assignee_names": ["Tyler Brooks", "Aaliya Brooks"],
+      "assignee_names": [
+        "Tyler Brooks",
+        "Aaliya Brooks"
+      ],
       "column_values": {
         "status": "In Production",
         "priority": "High",
@@ -991,28 +1230,40 @@
         "progress_pct": 40,
         "notes": "Casting 2,000 contestants globally. Applications close Sept 30. Travel and accommodation vendor (IMG Events) confirmed. NDA framework with legal finalized."
       },
-      "tags": ["beast-games", "production", "casting", "logistics"]
+      "tags": [
+        "beast-games",
+        "production",
+        "casting",
+        "logistics"
+      ]
     },
     {
       "id": "itm-7003",
-      "name": "Amazon Prime delivery schedule negotiation",
+      "name": "MarketHub Prime delivery schedule negotiation",
       "board_id": "brd-007",
-      "board_name": "Beast Games Production",
+      "board_name": "Summit Games Production",
       "group_id": "grp-007-3",
       "group_name": "Post-Production",
       "state": "active",
       "created_at": "2026-07-10T10:00:00Z",
       "updated_at": "2026-09-05T11:00:00Z",
       "creator_name": "Tyler Brooks",
-      "assignee_names": ["Tyler Brooks"],
+      "assignee_names": [
+        "Tyler Brooks"
+      ],
       "column_values": {
         "status": "In Progress",
         "priority": "High",
         "due_date": "2026-09-30",
         "progress_pct": 55,
-        "notes": "Negotiating weekly vs bi-weekly episode drop cadence with Amazon. We want weekly to maintain momentum. Amazon wants 2-week hold to build subscriber retention. Legal in talks."
+        "notes": "Negotiating weekly vs bi-weekly episode drop cadence with MarketHub. We want weekly to maintain momentum. MarketHub wants 2-week hold to build subscriber retention. Legal in talks."
       },
-      "tags": ["beast-games", "amazon", "post-production", "distribution"]
+      "tags": [
+        "beast-games",
+        "amazon",
+        "post-production",
+        "distribution"
+      ]
     },
     {
       "id": "itm-8001",
@@ -1025,19 +1276,27 @@
       "created_at": "2026-07-15T10:00:00Z",
       "updated_at": "2026-09-08T08:30:00Z",
       "creator_name": "Jasmine Park",
-      "assignee_names": ["Jasmine Park"],
+      "assignee_names": [
+        "Jasmine Park"
+      ],
       "column_values": {
         "status": "Active",
         "priority": "High",
         "due_date": "2026-10-01",
         "progress_pct": 50,
-        "notes": "KSI's current deal expires Oct 1. Renewing for 12 months covering Feastables and Step. KSI team wants an equity component — looping in Jimmy and legal."
+        "notes": "KSI's current deal expires Oct 1. Renewing for 12 months covering TreatCo and Step. KSI team wants an equity component — looping in Jimmy and legal."
       },
-      "tags": ["creator", "ksi", "partnership", "feastables", "step"]
+      "tags": [
+        "creator",
+        "ksi",
+        "partnership",
+        "feastables",
+        "step"
+      ]
     },
     {
       "id": "itm-8002",
-      "name": "Logan Paul collab for Lunchly",
+      "name": "Logan Paul collab for LunchBox",
       "board_id": "brd-008",
       "board_name": "Creator Partnerships",
       "group_id": "grp-008-2",
@@ -1046,15 +1305,22 @@
       "created_at": "2026-08-20T11:00:00Z",
       "updated_at": "2026-09-07T14:00:00Z",
       "creator_name": "Jasmine Park",
-      "assignee_names": ["Jasmine Park"],
+      "assignee_names": [
+        "Jasmine Park"
+      ],
       "column_values": {
         "status": "In Negotiation",
         "priority": "High",
         "due_date": "2026-10-15",
         "progress_pct": 35,
-        "notes": "Logan Paul wants to co-create a Lunchly flavor. Term sheet sent. His team is asking for a higher rev share than we can do. Counter proposed with exclusivity period instead."
+        "notes": "Logan Paul wants to co-create a LunchBox flavor. Term sheet sent. His team is asking for a higher rev share than we can do. Counter proposed with exclusivity period instead."
       },
-      "tags": ["creator", "logan-paul", "lunchly", "collab"]
+      "tags": [
+        "creator",
+        "logan-paul",
+        "lunchly",
+        "collab"
+      ]
     },
     {
       "id": "itm-8003",
@@ -1067,18 +1333,26 @@
       "created_at": "2026-06-01T10:00:00Z",
       "updated_at": "2026-09-06T16:00:00Z",
       "creator_name": "Jasmine Park",
-      "assignee_names": ["Jasmine Park", "Mia Torres"],
+      "assignee_names": [
+        "Jasmine Park",
+        "Mia Torres"
+      ],
       "column_values": {
         "status": "Active",
         "priority": "Medium",
         "due_date": "2026-11-01",
         "progress_pct": 60,
-        "notes": "Building a tiered ambassador program — 50 mid-tier creators (100K–2M) for Step and Feastables. Tier 1 gets paid deal + card. Tier 2 gets gifting + commission. Brief going to legal."
+        "notes": "Building a tiered ambassador program — 50 mid-tier creators (100K–2M) for Step and TreatCo. Tier 1 gets paid deal + card. Tier 2 gets gifting + commission. Brief going to legal."
       },
-      "tags": ["creator", "ambassador", "step", "feastables", "program"]
+      "tags": [
+        "creator",
+        "ambassador",
+        "step",
+        "feastables",
+        "program"
+      ]
     }
   ],
-
   "updates": [
     {
       "id": "upd-001",
@@ -1112,9 +1386,9 @@
     {
       "id": "upd-003",
       "item_id": "itm-2001",
-      "item_name": "MrBeast YouTube integration campaign",
+      "item_name": "The Summit YouTube integration campaign",
       "board_id": "brd-002",
-      "body": "MrBeast approved the creative brief and CTA copy. video drops sept 14. we're estimating 300-500K new signups in the first 48 hours based on step.com/beast traffic from his last mention",
+      "body": "The Summit approved the creative brief and CTA copy. video drops sept 14. we're estimating 300-500K new signups in the first 48 hours based on step.com/beast traffic from his last mention",
       "created_at": "2026-09-08T08:00:00Z",
       "creator_name": "Mia Torres",
       "likes_count": 24,
@@ -1145,7 +1419,7 @@
       "replies": [
         {
           "id": "upd-004-r1",
-          "body": "amazing catch, ship it ASAP. i'll be on standby tonight if anything goes sideways",
+          "body": "amazing catch, ship it AEnterpriseOne. i'll be on standby tonight if anything goes sideways",
           "creator_name": "Ryo Tanaka",
           "created_at": "2026-09-08T10:20:00Z"
         }
@@ -1194,7 +1468,7 @@
     {
       "id": "upd-008",
       "item_id": "itm-5001",
-      "item_name": "Feastables loyalty points via Step wallet",
+      "item_name": "TreatCo loyalty points via Step wallet",
       "board_id": "brd-005",
       "body": "API contract between step and feastables backend is finalized and signed off. dev patel is starting the step-side implementation this sprint. feastables backend team has their end scoped out. target: live nov 1",
       "created_at": "2026-09-06T14:00:00Z",
@@ -1205,7 +1479,7 @@
     {
       "id": "upd-009",
       "item_id": "itm-5002",
-      "item_name": "MrBeast merch store Step checkout",
+      "item_name": "The Summit merch store Step checkout",
       "board_id": "brd-005",
       "body": "shopify partnership approval came through! we're officially a shopify partner. QA on sandbox looks clean — 94% of test transactions passing. known issue: apple pay fallback edge case, ryo is fixing",
       "created_at": "2026-09-04T13:00:00Z",
@@ -1223,7 +1497,7 @@
     {
       "id": "upd-010",
       "item_id": "itm-6001",
-      "item_name": "Lunchly x Step collab launch",
+      "item_name": "LunchBox x Step collab launch",
       "board_id": "brd-006",
       "body": "packaging printer confirmed — 500K packs with the step QR code inside. QR redemption flow is being built by eng this sprint (itm-3004 api work). launch date locked: oct 1. this collab is gonna be huge for both brands",
       "created_at": "2026-09-05T16:00:00Z",
@@ -1234,7 +1508,7 @@
     {
       "id": "upd-011",
       "item_id": "itm-7001",
-      "item_name": "Beast Games Season 2 — episode brief finalization",
+      "item_name": "Summit Games Season 2 — episode brief finalization",
       "board_id": "brd-007",
       "body": "jimmy ran through all 10 episode concepts in the writers room today. loved 8 of them, wants to rework episodes 4 and 7. new drafts due by sept 15. amazon review call is still sept 18 — should be fine",
       "created_at": "2026-09-07T13:00:00Z",
@@ -1263,9 +1537,9 @@
     {
       "id": "upd-013",
       "item_id": "itm-8002",
-      "item_name": "Logan Paul collab for Lunchly",
+      "item_name": "Logan Paul collab for LunchBox",
       "board_id": "brd-008",
-      "body": "logan's team came back — they're open to the exclusivity period trade instead of higher rev share. 6-month exclusivity for Lunchly in the meal kit space feels workable. sending revised term sheet monday",
+      "body": "logan's team came back — they're open to the exclusivity period trade instead of higher rev share. 6-month exclusivity for LunchBox in the meal kit space feels workable. sending revised term sheet monday",
       "created_at": "2026-09-07T14:00:00Z",
       "creator_name": "Jasmine Park",
       "likes_count": 5,
@@ -1294,7 +1568,6 @@
       "replies": []
     }
   ],
-
   "docs": [
     {
       "id": "doc-001",
@@ -1305,18 +1578,29 @@
       "created_by": "Priya Mehta",
       "url": "https://beastindustries.monday.com/docs/doc-001",
       "content_summary": "North star document for Step's product strategy in 2026. Covers the core thesis (financial literacy for Gen-Z), key product pillars (smart debit, credit building, savings, family controls), acquisition strategy via Beast ecosystem, and 2026 OKRs. Living doc — updated quarterly by product leadership.",
-      "tags": ["step", "product", "vision", "strategy", "fintech"]
+      "tags": [
+        "step",
+        "product",
+        "vision",
+        "strategy",
+        "fintech"
+      ]
     },
     {
       "id": "doc-002",
-      "name": "Beast Industries x Step Integration Roadmap",
+      "name": "Summit Ventures x Step Integration Roadmap",
       "workspace_id": "ws-001",
       "created_at": "2026-03-10T09:00:00Z",
       "updated_at": "2026-08-28T11:00:00Z",
       "created_by": "Carlos Reyes",
       "url": "https://beastindustries.monday.com/docs/doc-002",
-      "content_summary": "Master roadmap for all integration touchpoints between Step and the Beast Industries portfolio. Covers Feastables loyalty integration, MrBeast merch checkout, Beast Games prize payouts, and Lunchly QR promotions. Includes technical architecture diagrams, go-live timelines, and cross-functional owners for each integration.",
-      "tags": ["step", "integrations", "beast-ecosystem", "roadmap"]
+      "content_summary": "Master roadmap for all integration touchpoints between Step and the Summit Ventures portfolio. Covers TreatCo loyalty integration, The Summit merch checkout, Summit Games prize payouts, and LunchBox QR promotions. Includes technical architecture diagrams, go-live timelines, and cross-functional owners for each integration.",
+      "tags": [
+        "step",
+        "integrations",
+        "beast-ecosystem",
+        "roadmap"
+      ]
     },
     {
       "id": "doc-003",
@@ -1327,7 +1611,13 @@
       "created_by": "Mia Torres",
       "url": "https://beastindustries.monday.com/docs/doc-003",
       "content_summary": "Full campaign playbook for Step's Back-to-School 2026 growth push. Covers campaign strategy, channel breakdown (TikTok, YouTube, Instagram, influencer seeding), budget allocation, creative brief, KPIs (signup volume, CPL, 30-day activation rate), and weekly performance check-in cadence.",
-      "tags": ["step", "growth", "marketing", "back-to-school", "playbook"]
+      "tags": [
+        "step",
+        "growth",
+        "marketing",
+        "back-to-school",
+        "playbook"
+      ]
     },
     {
       "id": "doc-004",
@@ -1337,11 +1627,15 @@
       "updated_at": "2026-08-15T10:00:00Z",
       "created_by": "Jasmine Park",
       "url": "https://beastindustries.monday.com/docs/doc-004",
-      "content_summary": "Standard operating procedures for managing creator and influencer partnerships at Beast Industries. Covers deal intake process, tier definitions (mega, macro, mid-tier, nano), term sheet templates, compliance and FTC disclosure requirements, gifting logistics, performance tracking, and renewal playbooks.",
-      "tags": ["creator", "partnerships", "influencer", "sop"]
+      "content_summary": "Standard operating procedures for managing creator and influencer partnerships at Summit Ventures. Covers deal intake process, tier definitions (mega, macro, mid-tier, nano), term sheet templates, compliance and FTC disclosure requirements, gifting logistics, performance tracking, and renewal playbooks.",
+      "tags": [
+        "creator",
+        "partnerships",
+        "influencer",
+        "sop"
+      ]
     }
   ],
-
   "forms": [
     {
       "id": "frm-001",
@@ -1359,7 +1653,7 @@
       "name": "Creator Partnership Inquiry",
       "board_id": "brd-008",
       "board_name": "Creator Partnerships",
-      "description": "Inbound form for creators, managers, and agencies interested in partnering with Beast Industries (Step, Feastables, Lunchly). Captured inquiries are reviewed weekly by the partnerships team.",
+      "description": "Inbound form for creators, managers, and agencies interested in partnering with Summit Ventures (Step, TreatCo, LunchBox). Captured inquiries are reviewed weekly by the partnerships team.",
       "is_active": true,
       "submissions_count": 87,
       "created_at": "2026-03-01T10:00:00Z",
@@ -1367,17 +1661,16 @@
     },
     {
       "id": "frm-003",
-      "name": "Beast Industries Press Inquiry",
+      "name": "Summit Ventures Press Inquiry",
       "board_id": "brd-005",
-      "board_name": "Beast Industries Integrations",
-      "description": "Media and press inquiry form for Beast Industries. Routes to the comms team. Used for interview requests, fact-checking, and press access. Response SLA is 2 business days.",
+      "board_name": "Summit Ventures Integrations",
+      "description": "Media and press inquiry form for Summit Ventures. Routes to the comms team. Used for interview requests, fact-checking, and press access. Response SLA is 2 business days.",
       "is_active": true,
       "submissions_count": 55,
       "created_at": "2026-02-15T09:00:00Z",
       "url": "https://beastindustries.monday.com/forms/frm-003"
     }
   ],
-
   "dashboards": [
     {
       "id": "dsh-001",
@@ -1391,13 +1684,13 @@
     },
     {
       "id": "dsh-002",
-      "name": "Beast Industries Portfolio Overview",
+      "name": "Summit Ventures Portfolio Overview",
       "workspace_id": "ws-001",
       "created_at": "2026-03-15T10:00:00Z",
       "updated_at": "2026-09-07T20:00:00Z",
       "owner_id": "usr-105",
       "widgets_count": 10,
-      "description": "Executive portfolio overview across all Beast Industries brands. Shows open items by team, integration project health, creator partnership pipeline value, Feastables/Lunchly campaign status, and Beast Games production milestone completion. Presented in weekly exec sync."
+      "description": "Executive portfolio overview across all Summit Ventures brands. Shows open items by team, integration project health, creator partnership pipeline value, TreatCo/LunchBox campaign status, and Summit Games production milestone completion. Presented in weekly exec sync."
     },
     {
       "id": "dsh-003",
@@ -1410,30 +1703,109 @@
       "description": "Engineering team velocity and sprint health for Step. Tracks sprint completion rate, story points delivered vs committed, open bug count by severity, deployment frequency, and incident MTTR. Used in sprint retrospectives and engineering all-hands."
     }
   ],
-
   "column_types": [
     {
       "types": [
-        {"id": "status", "title": "Status", "type": "status"},
-        {"id": "priority", "title": "Priority", "type": "color"},
-        {"id": "due_date", "title": "Due Date", "type": "date"},
-        {"id": "progress_pct", "title": "Progress (%)", "type": "numbers"},
-        {"id": "notes", "title": "Notes", "type": "long_text"},
-        {"id": "assignee", "title": "Assignee", "type": "people"},
-        {"id": "tags", "title": "Tags", "type": "tags"},
-        {"id": "board_relation", "title": "Board Relation", "type": "board_relation"},
-        {"id": "timeline", "title": "Timeline", "type": "timeline"},
-        {"id": "files", "title": "Files", "type": "file"},
-        {"id": "link", "title": "Link", "type": "link"},
-        {"id": "checkbox", "title": "Checkbox", "type": "checkbox"},
-        {"id": "numbers", "title": "Numbers", "type": "numbers"},
-        {"id": "text", "title": "Text", "type": "text"},
-        {"id": "email", "title": "Email", "type": "email"},
-        {"id": "phone", "title": "Phone", "type": "phone"},
-        {"id": "dropdown", "title": "Dropdown", "type": "dropdown"},
-        {"id": "rating", "title": "Rating", "type": "rating"},
-        {"id": "world_clock", "title": "World Clock", "type": "world_clock"},
-        {"id": "auto_number", "title": "Auto Number", "type": "auto_number"}
+        {
+          "id": "status",
+          "title": "Status",
+          "type": "status"
+        },
+        {
+          "id": "priority",
+          "title": "Priority",
+          "type": "color"
+        },
+        {
+          "id": "due_date",
+          "title": "Due Date",
+          "type": "date"
+        },
+        {
+          "id": "progress_pct",
+          "title": "Progress (%)",
+          "type": "numbers"
+        },
+        {
+          "id": "notes",
+          "title": "Notes",
+          "type": "long_text"
+        },
+        {
+          "id": "assignee",
+          "title": "Assignee",
+          "type": "people"
+        },
+        {
+          "id": "tags",
+          "title": "Tags",
+          "type": "tags"
+        },
+        {
+          "id": "board_relation",
+          "title": "Board Relation",
+          "type": "board_relation"
+        },
+        {
+          "id": "timeline",
+          "title": "Timeline",
+          "type": "timeline"
+        },
+        {
+          "id": "files",
+          "title": "Files",
+          "type": "file"
+        },
+        {
+          "id": "link",
+          "title": "Link",
+          "type": "link"
+        },
+        {
+          "id": "checkbox",
+          "title": "Checkbox",
+          "type": "checkbox"
+        },
+        {
+          "id": "numbers",
+          "title": "Numbers",
+          "type": "numbers"
+        },
+        {
+          "id": "text",
+          "title": "Text",
+          "type": "text"
+        },
+        {
+          "id": "email",
+          "title": "Email",
+          "type": "email"
+        },
+        {
+          "id": "phone",
+          "title": "Phone",
+          "type": "phone"
+        },
+        {
+          "id": "dropdown",
+          "title": "Dropdown",
+          "type": "dropdown"
+        },
+        {
+          "id": "rating",
+          "title": "Rating",
+          "type": "rating"
+        },
+        {
+          "id": "world_clock",
+          "title": "World Clock",
+          "type": "world_clock"
+        },
+        {
+          "id": "auto_number",
+          "title": "Auto Number",
+          "type": "auto_number"
+        }
       ]
     }
   ]
